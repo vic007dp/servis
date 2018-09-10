@@ -1,0 +1,230 @@
+
+/* ------ Подключение шрифтов ------ */
+
+@font-face {
+  font-family: 'candarabold';
+  src: url('../font/Candara.eot'); /* IE9 Compat Modes */
+  src: url('../font/Candara.eot.eot?#iefix')         format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/Candara.woff2')     format('woff2'), /* Super Modern Browsers */
+       url('../font/Candara.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/Candara.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/Candara.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+/* ------ Specification ------ */
+body{
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'candarabold';
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.6em
+}
+h1{
+    
+    
+}
+h2 {
+    
+}
+h3{
+    
+}
+h4{
+   
+}
+h5{
+    
+}
+h6{
+      
+}
+a, a:hover, a:active {
+    font-family: ;
+	text-decoration: none;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+p {
+   font-family: 'candarabold' 
+}
+.red-letter{
+    color: #b81c31;
+}
+.justify-content-between {
+	justify-content: space-between;
+}
+.align-items-center {
+	align-items: center;
+}
+.btn{
+   
+}
+.offer__btn{
+   
+}
+.btn:hover, .btn:focus {
+	box-shadow: none;
+}	
+	
+
+.offer__btn:hover, .offer__btn:focus, .offer__btn:active{
+    
+}
+header .navigation_pages{
+    background: #e5e6e8;
+    border-bottom: 5px solid #f1f1f3;
+} 
+
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+	outline: none;
+}
+.container-fluid_plain{
+    padding: 0;
+}
+
+.img-adaptiv {
+    width: 100%;
+    max-width: 100%;
+	display: block;
+    color: white
+}
+
+
+
+/* ------ Header ------ */
+
+.header{
+    font-family: 'candarabold';
+}
+.header-top{
+    background: #22b7e8; 
+    
+}
+.logo{
+   
+}
+.tel{
+    border-left: 3px solid #fff;
+     border-right: 3px solid #fff;
+    margin: 5px 0;
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
+}
+.tel a{
+    font-size: 12px;
+    color: #fff; 
+    display: block;
+}
+.tel a:hover{
+    color: #fff;
+}
+.time{
+    border-right:  3px solid #fff;
+    text-align: center;
+    margin: 5px 0;
+    height: 54px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.time p{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #fff; 
+}
+.top-menu{
+    margin-top: 20px;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    
+}
+.top-menu__item{
+    margin-right: 5px;
+}
+.top-menu__item a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    }
+.top-menu__item a:hover {
+    opacity: .8;
+}
+.header-menu{
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+   
+}
+.header-menu__text{
+    margin-left: 5px;
+    color: #000;
+    border-bottom: 2px solid transparent;
+   
+}
+.header-menu__text:hover{
+    border-bottom: 2px solid #22b7e8;
+    cursor: context-menu;
+}
+.header-title{
+    background: url(../img/bg_header.jpg) no-repeat top ;
+    background-size: cover;
+    padding-bottom: 500px;
+}
+/* ------ MAIN ------ */
+
+/* ------ SECTION "Slider-logos" ------ */
+
+.str .str_item {
+font-size:0;
+line-height:0
+}
+.str img {
+opacity:0.8
+}
+.str img:hover {
+opacity:1
+}
+
+/* ------ SECTION "advantages" ------ */
+
+.advantages{
+    background: #f5f5f5;
+}
+.advantages__img{
+    width: 100px;
+    height: 100px;
+}
+.advantages p{
+    font-weight: bold;
+    font-size: 14px;
+}
+/* ------ Media Queries ------ */
+/* 992-1200px */
+@media screen and (max-width: 1200px){
+    
+    }
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+   
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+    
+    
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+    
+}
