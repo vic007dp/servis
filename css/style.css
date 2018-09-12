@@ -82,7 +82,7 @@ header .navigation_pages{
 } 
 
 
-input, input:hover, input:focus, input:active,
+a, input, input:hover, input:focus, input:active,
 button, button:hover, button:focus, button:active {
 	outline: none;
 }
@@ -189,10 +189,11 @@ font-size:0;
 line-height:0
 }
 .str img {
-opacity:0.8
+    opacity: 1;
+    
 }
 .str img:hover {
-opacity:1
+    opacity: 0.8;
 }
 
 /* ------ SECTION "advantages" ------ */
@@ -207,6 +208,50 @@ opacity:1
 .advantages p{
     font-weight: bold;
     font-size: 14px;
+}
+/* ------ SECTION "advantages" ------ */
+
+.devase {
+	
+}
+.repair {
+	
+}
+.repair h3{
+    color: #2ebcf6;
+    font-size: 16px;
+}
+.repair p {
+	font-size: 14px;
+}
+
+/* ------ SECTION "advantages" ------ */
+
+.slader {
+	margin-bottom: 10px;
+}
+.slick-prev, .slick-next{
+    font-size: 26px;
+    color: #2ebcf6;
+    width: 21px;
+    height: 28px;
+    margin-top: 14px;
+    top: 37%;
+}
+.slick-prev::before, .slick-next::before{
+    display: none;
+}
+.slader-card {
+	border: 2px solid #2ebcf6;
+    margin-right: 15px;
+    padding: 5px;
+    text-align: center;
+}
+.slader-card p{
+	text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
 }
 /* ------ Media Queries ------ */
 /* 992-1200px */
