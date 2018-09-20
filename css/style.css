@@ -90,7 +90,7 @@ button, button:hover, button:focus, button:active {
     padding: 0;
 }
 
-.img-adaptiv {
+.img-adaptiv{
     width: 100%;
     max-width: 100%;
 	display: block;
@@ -161,19 +161,57 @@ button, button:hover, button:focus, button:active {
 }
 .header-menu{
     font-size: 12px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-   
 }
-.header-menu__text{
-    margin-left: 5px;
+.header-menu__text span{
+    margin-left: 10px;
+}
+.menu-open {
+    background: none;
+    border: 0;
     color: #000;
-    border-bottom: 2px solid transparent;
-   
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 27px;
+    margin: 0 auto;
 }
-.header-menu__text:hover{
+.menu-opened {
+    background: rgba(41, 24, 68, 0.87);
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column-reverse;
+    position: absolute;
+    left: 50%;
+    margin-left: -115px;
+    z-index: 9999;
+    box-shadow: 0 0 40px #00000073;
+}
+.menu.menu-opened .menu__item {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.menu.menu-opened a span{
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 5px 0px;
+   
+    display: block;
+}
+.menu.menu-opened a img{
+    margin-right: 15px;
+}
+
+.menu__item a{
+   border-bottom: 2px solid transparent;
+    margin-top: 3px;
+    text-align: center; 
+    padding-bottom: 3px;
+    display: flex;
+    align-items:center;
+}
+.menu__item a:hover{
     border-bottom: 2px solid #22b7e8;
-    cursor: context-menu;
+    
 }
 .header-title{
     background: url(../img/bg_header.jpg) no-repeat top ;
@@ -260,12 +298,19 @@ line-height:0
     }
 /* 768 - 992 px */
 @media screen and (max-width: 992px) {
-   
+    .top-menu__item a{
+        margin-right: 3px;
+    }
+    .header-menu__text span{
+    margin-left: 0px;
+    }
 }
 
 /* 576 - 768 px */
 @media screen and (max-width: 768px) {
-    
+    button.slick-prev, button.slick-next{
+        display: none !important;
+    }
     
 }
 

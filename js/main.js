@@ -3,7 +3,22 @@ $(function (){
     $(window).load(function(){
         $('.str').liMarquee();
     });
+    
+    //Плавная прокрутка
+    $(".header-menu__text").click(function (e) {
+        e.preventDefault();
+		elementClick = $(this).attr("href");
+		destination = $(elementClick).offset().top;
+		$("body,html").animate({scrollTop: destination }, 800);
+	});
+    // гамбургер
+    $('.menu-open, .menu a ').click(function () {
+        $('.menu-collapse').toggleClass('d-none').css('order', '1');
+        $('.menu').toggleClass('menu-opened');
+    });
+    
     //Слайдер
+    
      $('.slader').slick({
         infinite: true,
           slidesToShow: 4,
@@ -11,7 +26,7 @@ $(function (){
          prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-angle-left"></i></button>',
          nextArrow: '<button type="button" class="slick-next"><i class="fas fa-angle-right"></i></button>',
          responsive: [
-    {
+        {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
@@ -28,10 +43,11 @@ $(function (){
     },
     {
       breakpoint: 480,
-      settings: {
+        settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
-      }
+        slidesToScroll: 1,
+        
+        }
     }
              ]
      });
