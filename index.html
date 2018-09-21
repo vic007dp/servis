@@ -36,22 +36,29 @@
         <div class="header-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-2">
+                   <div class="col-1 col-sm-1 d-md-none m-auto">
+                        <button class="menu-open">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-5">
+<!--
                         <div class="logo">
 
                         </div>
+-->
                     </div>
-                    <div class="col-lg-2 col-md-2 pl-0 pr-0">
-                        <div class="tel">
+                    <div class="col-lg-4 col-md-4 col-5 pl-0 pr-0">
+                       <div class="header-top_cont">
+                            <div class="tel">
                             <a href="tel:+380675244008">+380675244008</a>
                             <a href="tel:+380675244008">+380675244008</a>
-                            <a href="mailto:vic007.dp@gmail.com">vic007.dp@gmail.com</a>
+                            <a href="mailto:vic007.dp@gmail.com" class="d-none d-md-block">vic007.dp@gmail.com</a>
                         </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 pl-0 pr-0">
                         <div class="time">
-                            <p>Время работы</p>
+                            <p class="d-none d-md-block">Время работы</p>
                             <p>с 9:00 до 18:00</p>
+                        </div>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6  ml-auto d-none d-md-block">
@@ -67,7 +74,7 @@
                                 </a>
                             </li>
                             <li class="top-menu__item">
-                                <a href="#">
+                                <a href="#maps">
                                     Контакты
                                 </a>
                             </li>
@@ -78,11 +85,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-2 col-sm-1 d-md-none m-auto">
-                        <button class="menu-open">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -93,22 +96,22 @@
                         <ul class="menu d-flex flex justify-content-between">
                             <li class="menu__item">
                                 <a href="#repair-tel" class="header-menu__text">
-                            <img src="img/icon_tel.jpg" alt="" >
+                            <img src="img/icon_tel.png" alt="" >
                             <span>Ремонт Телефонов</span></a>
                             </li>
                             <li class="menu__item">
                                 <a href="#repair-plansh" class="header-menu__text">
-                            <img src="img/icon_planshet.jpg" alt="">
+                            <img src="img/icon_planshet.png" alt="">
                             <span>Ремонт Планшетов</span></a>
                             </li>
                             <li class="menu__item">
                                 <a href="#repair-noot" class="header-menu__text">
-                            <img src="img/icon_comp.jpg" alt="">
+                            <img src="img/icon_comp.png" alt="">
                             <span>Ремонт Компьютеров</span></a>
                             </li>
                             <li class="menu__item">
                                 <a href="#repair-telev" class="header-menu__text">
-                            <img src="img/icon-telec.jpg" alt="">
+                            <img src="img/icon-telec.png" alt="">
                             <span>Ремонт Телевизоров</span></a>
                             </li>
                             <li class="menu__item">
@@ -120,6 +123,12 @@
                                 <a href="#" class="header-menu__text">
                             <img src="img/smar_clock.jpg" alt="">
                             <span>Ремонт Смарт-часов</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="header-menu__text d-md-none">
+                                   <i class="fab fa-blogger"></i>
+                                    <span>Наш блог</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -403,6 +412,37 @@
             </div>
         </section>
     </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 ">
+                    <p class="slogan">
+                        Сервисный центр «Бла бла бла» - это не просто сервис, это настоящая скорая помощь для вашей техники. Мы поможем, если Вас интересует качественный, оперативный ремонт за умеренные деньги.
+                    </p>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="#repair-tel" class="footer_link">Ремонт телефонов</a>
+                    <a href="#repair-plansh" class="footer_link">Ремонт планшетов</a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="#repair-noot" class="footer_link">Ремонт Компьютеров</a>
+                    <a href="#repair-telev" class="">Ремонт Телевизоров</a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="#" class="footer_link">Ремонт Плееров</a>
+                    <a href="#" class="footer_link">Ремонт Смарт-часов</a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="#" class="link-social">
+                        <img src="img/%D0%A4%D0%B5%D0%B9%D1%81.png">
+                    </a>
+                    <a href="#">
+                        <img src="img/gramm.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/liMarquee/jquery-1.8.3.min.js"></script>
 

@@ -5,7 +5,7 @@ $(function (){
     });
     
     //Плавная прокрутка
-    $(".header-menu__text").click(function (e) {
+    $(".header-menu__text, .footer_link, .top-menu__item a").click(function (e) {
         e.preventDefault();
 		elementClick = $(this).attr("href");
 		destination = $(elementClick).offset().top;
@@ -14,7 +14,7 @@ $(function (){
     // гамбургер
     $('.menu-open, .menu a ').click(function () {
         $('.menu-collapse').toggleClass('d-none').css('order', '1');
-        $('.menu').toggleClass('menu-opened');
+        $('.menu, li .top-menu__item').toggleClass('menu-opened');
     });
     
     //Слайдер
