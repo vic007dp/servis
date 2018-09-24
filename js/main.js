@@ -3,6 +3,7 @@ $(function (){
     $(window).load(function(){
         $('.str').liMarquee();
     });
+    
     // гамбургер
     $('.menu-open').click(function () {
         $('.menu-collapse').toggleClass('d-none');
@@ -11,11 +12,11 @@ $(function (){
     
     // фиксированая шапка
     $(window).scroll( function () {
-    if ($(window).scrollTop() > 0) {
-        $('.header-top').addClass('fixed');
-    } else {
-        $('.header-top').removeClass('fixed');
-    }
+        if ($(window).scrollTop() > 0) {
+            $('.header-top').addClass('fixed');
+        } else {
+            $('.header-top').removeClass('fixed');
+        }
     });
 
     //Плавная прокрутка
