@@ -15,6 +15,7 @@
 /* ------ Specification ------ */
 body{
     font-family: 'candarabold';
+    position: relative;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
@@ -75,13 +76,19 @@ button, button:hover, button:focus, button:active {
 
 
 /* ------ Header ------ */
-
+.fixed {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
 .header{
     
 }
 .header-top{
-    background: #22b7e8; 
-    
+    background: #22b7e8;
+   
 }
 .logo{
    
@@ -165,6 +172,7 @@ button, button:hover, button:focus, button:active {
     margin-left: -115px;
     z-index: 9999;
     box-shadow: 0 0 40px #00000073;
+    
 }
 .menu.menu-opened .menu__item {
     margin-right: 0px;

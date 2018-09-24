@@ -5,10 +5,19 @@ $(function (){
     });
     // гамбургер
     $('.menu-open').click(function () {
-        $('.menu-collapse').toggleClass('d-none').css('order', '1');
+        $('.menu-collapse').toggleClass('d-none');
         $('.menu, li .top-menu__item').toggleClass('menu-opened');
     });
     
+    // фиксированая шапка
+    $(window).scroll( function () {
+    if ($(window).scrollTop() > 0) {
+        $('.header-top').addClass('fixed');
+    } else {
+        $('.header-top').removeClass('fixed');
+    }
+    });
+
     //Плавная прокрутка
     $(".header-menu__text, .footer_link, .top-menu__item a").click(function (e) {
         e.preventDefault();
