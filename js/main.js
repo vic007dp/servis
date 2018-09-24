@@ -3,6 +3,11 @@ $(function (){
     $(window).load(function(){
         $('.str').liMarquee();
     });
+    // гамбургер
+    $('.menu-open').click(function () {
+        $('.menu-collapse').toggleClass('d-none').css('order', '1');
+        $('.menu, li .top-menu__item').toggleClass('menu-opened');
+    });
     
     //Плавная прокрутка
     $(".header-menu__text, .footer_link, .top-menu__item a").click(function (e) {
@@ -11,11 +16,7 @@ $(function (){
 		destination = $(elementClick).offset().top;
 		$("body,html").animate({scrollTop: destination }, 800);
 	});
-    // гамбургер
-    $('.menu-open, .menu a ').click(function () {
-        $('.menu-collapse').toggleClass('d-none').css('order', '1');
-        $('.menu, li .top-menu__item').toggleClass('menu-opened');
-    });
+    
     
     //Слайдер
     
