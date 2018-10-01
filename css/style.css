@@ -298,7 +298,7 @@ footer a {
 }
 .box-modal {
     position: relative;
-    width: 700px;
+    width: 900px;
     height: ;
     padding: 16px;
     background: #fff;
@@ -340,7 +340,9 @@ footer a {
         height: 36px;
         padding-top: 5px;
     }
-    
+    .box-modal{
+        width: 576px;
+    }
 }
 
 /* 320 - 576 px */
@@ -362,6 +364,9 @@ footer a {
     .header-top_cont{
         flex-direction: column;
         padding-top: 10px;
+    }
+    .box-modal{
+        width: 320px;
     }
 }
 

@@ -66,6 +66,26 @@ $(function (){
 
     $('#l1').click(function (e) {
         e.preventDefault();
-        $('#exampleModal').arcticmodal();
+        $('#exampleModal_1').arcticmodal();
+    });
+    $('#l3').click(function (e) {
+        e.preventDefault();
+        $('#exampleModal_3').arcticmodal();
+    });
+    $('#l4').click(function (e) {
+        e.preventDefault();
+        $('#exampleModal_4').arcticmodal();
+    });
+    $('#l5').click(function (e) {
+        e.preventDefault();
+        $('#exampleModal_5').arcticmodal();
+    });
+    $('#l7').click(function (e) {
+        e.preventDefault();
+        $('#exampleModal_7').arcticmodal();
+    });
+    $('#l8').click(function (e) {
+        e.preventDefault();
+        $('#exampleModal_8').arcticmodal();
     });
              });
