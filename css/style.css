@@ -167,8 +167,9 @@ button, button:hover, button:focus, button:active {
     border-radius: 10px;
     padding: 20px;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     left: 50%;
+    top:87px;
     margin-left: -115px;
     z-index: 9999;
     box-shadow: 0 0 40px #00000073;
@@ -298,8 +299,8 @@ footer a {
 }
 .box-modal {
     position: relative;
-    width: 900px;
-    height: ;
+    width: 85vw;
+    height: 85vh;
     padding: 16px;
     background: #fff;
     color: #3c3c3c;
