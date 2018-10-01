@@ -62,4 +62,10 @@ $(function (){
     }
              ]
      });
+    // Всплывающее окно
+
+    $('#l1').click(function (e) {
+        e.preventDefault();
+        $('#exampleModal').arcticmodal();
+    });
              });

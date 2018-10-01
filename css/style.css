@@ -296,7 +296,19 @@ footer{
 footer a {
     color: #fff;
 }
-
+.box-modal {
+    position: relative;
+    width: 700px;
+    height: ;
+    padding: 16px;
+    background: #fff;
+    color: #3c3c3c;
+    font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+    border-radius: 6px;
+}
+.box-modal_close { position: absolute; right: 10px; top: 6px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+.box-modal_close:hover { color: #666; }
 /* ------ Media Queries ------ */
 /* 992-1200px */
 @media screen and (max-width: 1200px){
