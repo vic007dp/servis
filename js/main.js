@@ -4,12 +4,19 @@ $(function (){
         $('.str').liMarquee();
     });
     
-    // гамбургер
-    $('.menu-open').click(function () {
+        $('.menu-open').on("click", function(event){
+        event.stopPropagation();
         $('.menu-collapse').toggleClass('d-none');
-        $('.menu, li .top-menu__item').toggleClass('menu-opened');
-    });
-    
+            $(".menu, li .top-menu__item").toggleClass("menu-opened");
+            });
+
+        $(document).on('click', function(event) {
+          if (!$(event.target).closest('.menu-open').length)  {     
+                $(".menu, li .top-menu__item").removeClass("menu-opened");
+                $('.menu-collapse').addClass('d-none');
+          
+        };
+
     // фиксированая шапка
     $(window).scroll( function () {
         if ($(window).scrollTop() > 0) {
@@ -18,7 +25,7 @@ $(function (){
             $('.header-top').removeClass('fixed');
         }
     });
-
+ });
     //Плавная прокрутка
     $(".header-menu__text, .footer_link, .top-menu__item a").click(function (e) {
         e.preventDefault();
