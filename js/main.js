@@ -5,11 +5,35 @@ $(function (){
     });
     
     // гамбургер
+
     $('.menu-open').click(function () {
         $('.menu-collapse').toggleClass('d-none');
         $('.menu, li .top-menu__item').toggleClass('menu-opened');
     });
     
+//$('.menu-open').on("click", function(event){
+//        event.stopPropagation();
+//        $('.menu-collapse').toggleClass('d-none');
+//            $(".menu, li .top-menu__item").toggleClass("menu-opened");
+//            });
+//
+//        $(document).on('click', function(event) {
+//          if (!$(event.target).closest('.menu-open').length)  {     
+//                $(".menu, li .top-menu__item").removeClass("menu-opened");
+//                $('.menu-collapse').addClass('d-none');
+//          
+//        };
+//        });
+     //Появление таблицы
+    $('.cena1').click(function () {
+         $('.c1, .header-title').css('display', 'none');
+        $('.praice').toggleClass('.praice').css('display', 'block');
+    });
+    $('.table-close').click(function () {
+         $('.praice').css('display', 'none');
+        $('.c1, .header-title').toggleClass('.c1, .header-title').css('display', 'block');
+    });
+
     // фиксированая шапка
     $(window).scroll( function () {
         if ($(window).scrollTop() > 0) {
