@@ -21,22 +21,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- fontawesome -->
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-
-
     <link rel="stylesheet" href="css/liMarquee/liMarquee.css">
     <link rel="stylesheet" href="css/slick/slick.css">
     <link rel="stylesheet" href="css/slick/slick-theme.css">
     <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-      
-    <header class="header " id="header">
-  
-   <div class="header-top ">
+     <header class="header " id="header">
+     <div class="header-top">
             <div class="container ">
                 <div class="row">
                    <div class="col-1 col-sm-1 d-md-none m-auto">
@@ -46,7 +40,7 @@
                     </div>
                     <div class="col-lg-2 col-md-2 col-5">
                         <div class="logo">
-
+<!--                            <img src="img/logo.jpg">-->
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-5 pl-0 pr-0">
@@ -74,9 +68,30 @@
                                     Наши цены
                                 </a>
                                 <ul class="top-menu__list">
-                                    <li class="top-menu__item"><a href="#repair-tel">Ремонт телефонов</a></li>
-                                    <li class="top-menu__item"><a href="#" class="cena1">Ремонт компьютеров</a></li>
-                                    <li class="top-menu__item"><a href="#"></a></li>
+                                    <li class="top-menu__list_item ">
+                                        <a href="#" class="cena1">
+                                            <div><img src="img/icon_tel.png" alt="Ремонт Телефонов" ></div>
+                                            <span>Ремонт Телефонов</span>
+                                        </a>
+                                    </li>
+                                    <li class="top-menu__list_item">
+                                        <a href="#" class="cena1" id="tab_2">
+                                            <div><img src="img/icon_comp.png" alt="Ремонт Компьютеров"></div>
+                                            <span>Ремонт Компьютеров</span>
+                                        </a>
+                                    </li>
+                                    <li class="top-menu__list_item">
+                                        <a href="#" class="cena1">
+                                            <div><img src="img/icon_planshet.png" alt="Ремонт Планшетов"></div>
+                                            <span>Ремонт Планшетов</span>
+                                        </a>
+                                    </li>
+                                    <li class="top-menu__list_item">
+                                        <a href="#" class="cena1">
+                                            <div><img src="img/icon-telec.png" alt="Ремонт Телевизоров"></div>
+                                            <span>Ремонт Телевизоров</span>
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="top-menu__item">
@@ -96,32 +111,35 @@
             </div>
         </div>
         
+<!--
         <div class="header-menu ">
         <div class="container">
             
-                <div class="row">
-                   <div class="col-lg-12 col-md-12 md-text-center d-none d-md-block menu-collapse">
-                        <ul class="menu d-flex flex justify-content-between">
+                <div class="row">-->
+                   <div class="d-none  menu-collapse">
+
+                        <ul class="menu">
                             <li class="menu__item">
                                 <a href="#repair-tel" class="header-menu__text">
-                            <img src="img/icon_tel.png" alt="" >
+                                    <div><img src="img/icon_tel.png" alt="" ></div>
                             <span>Ремонт Телефонов</span></a>
                             </li>
                             <li class="menu__item">
                                 <a href="#repair-plansh" class="header-menu__text">
-                            <img src="img/icon_planshet.png" alt="">
+                                    <div><img src="img/icon_planshet.png" alt=""></div>
                             <span>Ремонт Планшетов</span></a>
                             </li>
                             <li class="menu__item">
                                 <a href="#repair-noot" class="header-menu__text">
-                            <img src="img/icon_comp.png" alt="">
+                                    <div><img src="img/icon_comp.png" alt=""></div>
                             <span>Ремонт Компьютеров</span></a>
                             </li>
                             <li class="menu__item">
                                 <a href="#repair-telev" class="header-menu__text">
-                            <img src="img/icon-telec.png" alt="">
+                                    <div><img src="img/icon-telec.png" alt=""></div>
                             <span>Ремонт Телевизоров</span></a>
                             </li>
+<!--
                             <li class="menu__item">
                                 <a href="#" class="header-menu__text">
                             <img src="img/icon_pleer.jpg" alt="">
@@ -132,20 +150,24 @@
                             <img src="img/smar_clock.jpg" alt="">
                             <span>Ремонт Смарт-часов</span></a>
                             </li>
+-->
 
                             <li class="menu__item">
-                                <a href="#" class="header-menu__text d-md-none">
-                                   <i class="fab fa-blogger"></i>
+                                <a href="#" class="header-menu__text">
+                                    <div><i class="fab fa-blogger"></i></div>
                                     <span>Наш блог</span>
                                 </a>
                             </li>
 
                         </ul>
+                       </div>
+<!--
                     </div>
                      
                 </div>
             </div>
         </div>
+-->
         <div class="header-title">
             <div class="container">
                 <div class="">
