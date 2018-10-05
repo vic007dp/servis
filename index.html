@@ -28,32 +28,33 @@
     <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-     <header class="header " id="header">
-     <div class="header-top">
+    <header class="header " id="header">
+        <div class="header-top fixed">
             <div class="container ">
                 <div class="row">
-                   <div class="col-1 col-sm-1 d-md-none m-auto">
+                    <div class="col-1 col-sm-1 d-md-none m-auto">
                         <button class="menu-open">
                             <i class="fa fa-bars"></i>
                         </button>
                     </div>
                     <div class="col-lg-2 col-md-2 col-5">
                         <div class="logo">
-<!--                            <img src="img/logo.jpg">-->
+                            <!--                            <img src="img/logo.jpg">-->
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-5 pl-0 pr-0">
-                       <div class="header-top_cont">
+                        <div class="header-top_cont">
                             <div class="tel">
-                            <a href="tel:+380675244008">+380953375886</a>
-                            <a href="tel:+380675244008">+380933375886</a>
-                            <a href="mailto:drservis.dp@gmail.com" class="d-none d-md-block">drservis.dp@gmail.com</a>
-                        </div>
-                        <div class="time">
-                            <p class="d-none d-md-block">Время работы</p>
-                            <p>с 9:00 до 18:00</p>
-                        </div>
+                                <a href="tel:+380675244008">+380953375886</a>
+                                <a href="tel:+380675244008">+380933375886</a>
+                                <a href="mailto:drservis.dp@gmail.com" class="d-none d-md-block">drservis.dp@gmail.com</a>
+                            </div>
+                            <div class="time">
+                                <p class="d-none d-md-block">Время работы</p>
+                                <p>с 9:00 до 18:00</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6  ml-auto d-none d-md-block">
@@ -69,13 +70,13 @@
                                 </a>
                                 <ul class="top-menu__list">
                                     <li class="top-menu__list_item ">
-                                        <a href="#" class="cena1">
-                                            <div><img src="img/icon_tel.png" alt="Ремонт Телефонов" ></div>
+                                        <a href="#" class="cena1 tab_1">
+                                            <div><img src="img/icon_tel.png" alt="Ремонт Телефонов"></div>
                                             <span>Ремонт Телефонов</span>
                                         </a>
                                     </li>
                                     <li class="top-menu__list_item">
-                                        <a href="#" class="cena1" id="tab_2">
+                                        <a href="#" class="cena1 tab_2">
                                             <div><img src="img/icon_comp.png" alt="Ремонт Компьютеров"></div>
                                             <span>Ремонт Компьютеров</span>
                                         </a>
@@ -106,40 +107,38 @@
                             </li>
                         </ul>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
-        
-<!--
-        <div class="header-menu ">
-        <div class="container">
-            
-                <div class="row">-->
-                   <div class="d-none  menu-collapse">
-
-                        <ul class="menu">
-                            <li class="menu__item">
-                                <a href="#repair-tel" class="header-menu__text">
-                                    <div><img src="img/icon_tel.png" alt="" ></div>
-                            <span>Ремонт Телефонов</span></a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#repair-plansh" class="header-menu__text">
-                                    <div><img src="img/icon_planshet.png" alt=""></div>
-                            <span>Ремонт Планшетов</span></a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#repair-noot" class="header-menu__text">
-                                    <div><img src="img/icon_comp.png" alt=""></div>
-                            <span>Ремонт Компьютеров</span></a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#repair-telev" class="header-menu__text">
-                                    <div><img src="img/icon-telec.png" alt=""></div>
-                            <span>Ремонт Телевизоров</span></a>
-                            </li>
-<!--
+        <!--меню гамбургира-->
+        <div class="d-none  menu-collapse">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="#repair-tel" class="header-menu__text">
+                        <div><img src="img/icon_tel.png" alt=""></div>
+                        <span>Ремонт Телефонов</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#repair-plansh" class="header-menu__text">
+                        <div><img src="img/icon_planshet.png" alt=""></div>
+                        <span>Ремонт Планшетов</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#repair-noot" class="header-menu__text">
+                        <div><img src="img/icon_comp.png" alt=""></div>
+                        <span>Ремонт Компьютеров</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#repair-telev" class="header-menu__text">
+                        <div><img src="img/icon-telec.png" alt=""></div>
+                        <span>Ремонт Телевизоров</span>
+                    </a>
+                </li>
+                <!--
                             <li class="menu__item">
                                 <a href="#" class="header-menu__text">
                             <img src="img/icon_pleer.jpg" alt="">
@@ -151,739 +150,971 @@
                             <span>Ремонт Смарт-часов</span></a>
                             </li>
 -->
-
-                            <li class="menu__item">
-                                <a href="#" class="header-menu__text">
-                                    <div><i class="fab fa-blogger"></i></div>
-                                    <span>Наш блог</span>
-                                </a>
-                            </li>
-
-                        </ul>
-                       </div>
-<!--
-                    </div>
-                     
-                </div>
-            </div>
+                <li class="menu__item">
+                    <a href="#" class="header-menu__text">
+                        <div><i class="fab fa-blogger"></i></div>
+                        <span>Наш блог</span>
+                    </a>
+                </li>
+            </ul>
         </div>
--->
         <div class="header-title">
             <div class="container">
                 <div class="">
                     <div class="row ">
                         <div class="col-lg-12 col-md-12 ">
                             <h1>Сервис</h1>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </header>
     <main id="main" role="main">
-       <div class="c1">
-        <section class="Slider-logos" id="Slider-logos">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="str str_item">
-                            <a href="#"><img src="img/ticker/acer.jpg" alt="acer"></a>
-                            <a href="#"><img src="img/ticker/asus.jpg" alt="asus"></a>
-                            <a href="#"><img src="img/ticker/blackberry.jpg" alt="blackberry"></a>
-                            <a href="#"><img src="img/ticker/fujitsu.jpg" alt="fujitsu"></a>
-                            <a href="#"><img src="img/ticker/hp.jpg" alt="hp"></a>
-                            <a href="#"><img src="img/ticker/htc.jpg" alt="htc"></a>
-                            <a href="#"><img src="img/ticker/lenovo.jpg" alt="lenovo"></a>
-                            <a href="#"><img src="img/ticker/lf.jpg" alt="fl"></a>
-                            <a href="#"><img src="img/ticker/lg.jpg" alt="lg"></a>
-                            <a href="#"><img src="img/ticker/motorola.jpg" alt="motorola"></a>
+        <div class="c1">
+            <section class="Slider-logos" id="Slider-logos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="str str_item">
+                                <a href="#"><img src="img/ticker/acer.jpg" alt="acer"></a>
+                                <a href="#"><img src="img/ticker/asus.jpg" alt="asus"></a>
+                                <a href="#"><img src="img/ticker/blackberry.jpg" alt="blackberry"></a>
+                                <a href="#"><img src="img/ticker/fujitsu.jpg" alt="fujitsu"></a>
+                                <a href="#"><img src="img/ticker/hp.jpg" alt="hp"></a>
+                                <a href="#"><img src="img/ticker/htc.jpg" alt="htc"></a>
+                                <a href="#"><img src="img/ticker/lenovo.jpg" alt="lenovo"></a>
+                                <a href="#"><img src="img/ticker/lf.jpg" alt="fl"></a>
+                                <a href="#"><img src="img/ticker/lg.jpg" alt="lg"></a>
+                                <a href="#"><img src="img/ticker/motorola.jpg" alt="motorola"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="advantages" id="advantages">
-            <div class="container">
-                <div class="row justify-content-between text-center">
-                    <div class="col-12 ">
-                        <h2 class="advantages__title">Примущества работы с нами</h2>
-                    </div>
-                    <div class="col-lg-3 col-md-3">
-                        <div class="advantages-card">
-                            <img src="img/vysoko-kvalificirovannaya-pomoshh.png" alt="" class="advantages__img">
-                            <p>Высоко-квалифицированная <br>помощь</p>
+            </section>
+            <section class="advantages" id="advantages">
+                <div class="container">
+                    <div class="row justify-content-between text-center">
+                        <div class="col-12 ">
+                            <h2 class="advantages__title">Примущества работы с нами</h2>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3">
-                        <div class="advantages-card">
-                            <img src="img/vygodnye-ceny.png" alt="" class="advantages__img">
-                            <p>Выгодные цены</p>
+                        <div class="col-lg-3 col-md-3">
+                            <div class="advantages-card">
+                                <img src="img/vysoko-kvalificirovannaya-pomoshh.png" alt="" class="advantages__img">
+                                <p>Высоко-квалифицированная <br>помощь</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3">
-                        <img src="img/vysokaya-skorost-vsex-rabot.png" alt="" class="advantages__img">
-                        <p>Высокая скорость всех работ</p>
-                    </div>
-                    <div class="col-lg-3 col-md-3">
-                        <img src="img/kachestvo-predostavlyaemyx-uslug.png" alt="" class="advantages__img">
-                        <p>Качество предоставляемых <br>услуг</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="devase" id="devase">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <aside class="repair" id="repair-tel">
-                            <h3>Ремонт телефонов</h3>
-                            <p>
-                                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Даль путь, текстами взгляд то? Грамматики своих алфавит, моей даль курсивных возвращайся. Однажды, живет лучше несколько но по всей рукописи, буквоград наш заголовок дорогу которой подпоясал осталось вопроса даже повстречался.
-                            </p>
-                        </aside>
-                    </div>
-                    <div class="col-lg-8 m-auto">
-                       <h4>Выберете свою модель телефона чтобы узнать цену ремонта и комплектующих</h4>
-                        <div class="slader">
-                            <a href="#" class="slader-card" id="l1">
-                                <img src="img/slaider_devase/telefon/iPhone.jpg" alt="Phone" class="img-adaptiv">
-                                <p>Apple iPhone</p>
-                            </a>
-                            <a href="#" class="slader-card" id="l">
-                                <img src="img/slaider_devase/telefon/MOTOROLA.jpg" alt="MOTOROLA" class="img-adaptiv">
-                                <p>Motorola</p>
-                            </a>
-                            <a href="#" class="slader-card" id="l2">
-                                <img src="img/slaider_devase/telefon/PRESTIGIO.jpg" alt="PRESTIGIO" class="img-adaptiv">
-                                <p>Prestigio</p>
-                            </a>
-                            <a href="#" class="slader-card" id="l3">
-                                <img src="img/slaider_devase/telefon/SAMSUNG.jpg" alt="SAMSUNG" class="img-adaptiv">
-                                <p>Samsung</p>
-                            </a>
-                            <a href="#" class="slader-card" id="l4">
-                                <img src="img/slaider_devase/telefon/XIAOMI.jpg" alt="XIAOMI" class="img-adaptiv">
-                                <p>xiaomi</p>
-                            </a>
-                            <a href="#" class="slader-card" id="l5">
-                                <img src="img/slaider_devase/telefon/HUAWEI.jpg" alt="HUAWEI" class="img-adaptiv">
-                                <p>huawei</p>
-                            </a>
-                            <a href="#" class="slader-card" id="l6">
-                                <img src="img/slaider_devase/telefon/SONY.jpg" alt="SONY" class="img-adaptiv">
-                                <p>sony</p>
-                            </a>
-                            <a href="#" class="slader-card" id="l7">
-                                <img src="img/" alt="FLY" class="img-adaptiv">
-                                <p>fly</p>
-                            </a>
-                            <a href="#" class="slader-card" id="l8">
-                                <img src="img/" alt="htc" class="img-adaptiv">
-                                <p>htc</p>
-                            </a>
+                        <div class="col-lg-3 col-md-3">
+                            <div class="advantages-card">
+                                <img src="img/vygodnye-ceny.png" alt="" class="advantages__img">
+                                <p>Выгодные цены</p>
+                            </div>
                         </div>
-                                </div>
-                    <div class="col-lg-3">
-                        <aside class="repair" id="repair-plansh">
-                            <h3>Ремонт планшетов</h3>
-                            <p>
-                                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Даль путь, текстами взгляд то? Грамматики своих алфавит, моей даль курсивных возвращайся. Однажды, живет лучше несколько но по всей рукописи, буквоград наш заголовок дорогу которой подпоясал осталось вопроса даже повстречался.
-                            </p>
-                        </aside>
-                    </div>
-                    <div class="col-lg-8 m-auto">
-                        <div class="slader">
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/planshet/iPad.jpg" alt="iPad" class="img-adaptiv">
-                                <p>Apple iPad</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/planshet/BRAVIS.jpg" alt="bravis" class="img-adaptiv">
-                                <p>bravis</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/planshet/PRESTIGIO.jpg" alt="PRESTIGIO" class="img-adaptiv">
-                                <p>Prestigio</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/planshet/Samsung.jpg" alt="SAMSUNG" class="img-adaptiv">
-                                <p>Samsung</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/planshet/ASUS.jpg" alt="asus" class="img-adaptiv">
-                                <p>asus</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/planshet/LENOVO.jpg" alt="lenovo">
-                                <p>lenovo</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/" alt="XIAOMI" class="img-adaptiv">
-                                <p>xiaomi</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/planshet/HUAWEI.jpg" alt="HUAWEI" class="img-adaptiv">
-                                <p>huawei</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/planshet/ACER.jpg" alt="aser" class="img-adaptiv">
-                                <p>aser</p>
-                            </a>
-                            
+                        <div class="col-lg-3 col-md-3">
+                            <img src="img/vysokaya-skorost-vsex-rabot.png" alt="" class="advantages__img">
+                            <p>Высокая скорость всех работ</p>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <aside class="repair" id="repair-noot">
-                            <h3>Ремонт Ноутбуков</h3>
-                            <p>
-                                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Даль путь, текстами взгляд то? Грамматики своих алфавит, моей даль курсивных возвращайся. Однажды, живет лучше несколько но по всей рукописи, буквоград наш заголовок дорогу которой подпоясал осталось вопроса даже повстречался.
-                            </p>
-                        </aside>
-                    </div>
-                   
-                    <div class="col-lg-8 m-auto">
-                        <div class="slader">
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/APPLE.jpg" alt="Apple" class="img-adaptiv">
-                                <p>Apple</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/.jpg" alt="SAMSUNG" class="img-adaptiv">
-                                <p>Samsung</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/ASUS.jpg" alt="asus" class="img-adaptiv">
-                                <p>asus</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/LENOVO.jpg" alt="lenovo" class="img-adaptiv">
-                                <p>lenovo</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/XIAOMI.jpg" alt="XIAOMI" class="img-adaptiv">
-                                <p>xiaomi</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/Dell.jpg" alt="dell">
-                                <p>dell</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/ACER.jpg" alt="aser" class="img-adaptiv">
-                                <p>aser</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/FUJITSU.jpg" alt="fujitsu" class="img-adaptiv">
-                                <p>fujitsu</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/notbook/HP.jpg" alt="hp" class="img-adaptiv">
-                                <p>hp</p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <aside class="repair" id="repair-telev">
-                            <h3>Ремонт Телевизоров</h3>
-                            <p>
-                                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Даль путь, текстами взгляд то? Грамматики своих алфавит, моей даль курсивных возвращайся. Однажды, живет лучше несколько но по всей рукописи, буквоград наш заголовок дорогу которой подпоясал осталось вопроса даже повстречался.
-                            </p>
-                        </aside>
-                    </div>
-                    <div class="col-lg-8 m-auto">
-                        <div class="slader">
-                     <a href="#" class="slader-card" id="l1">
-                                <img src="img/slaider_devase/telec/HISENSE.jpg" alt="hisense" class="img-adaptiv">
-                                <p>hisense</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/telec/SAMSUNG.jpg" alt="SAMSUNG" class="img-adaptiv">
-                                <p>Samsung</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/telec/LIBERTY.jpg" alt="liberty" class="img-adaptiv">
-                                <p>liberty</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/telec/PHILIPS.jpg" alt="philips" class="img-adaptiv">
-                                <p>lenovo</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/telec/SATURN.jpg" alt="saturn" class="img-adaptiv">
-                                <p>saturn</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/telec/TOSHIBA.jpg" alt="toshiba" class="img-adaptiv">
-                                <p>toshiba</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/telec/BRAVIS.jpg" alt="bravis" class="img-adaptiv">
-                                <p>bravis</p>
-                            </a>
-                            <a href="#" class="slader-card">
-                                <img src="img/slaider_devase/telec/SONY.jpg" alt="sony" class="img-adaptiv">
-                                <p>sony</p>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div style="display: none;">
-        <div class="box-modal" id="exampleModal_1">
-            <div class="box-modal_close arcticmodal-close">x</div>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTpgOITpsUaV8IFncPH29jH5K1u45hrGKLYHNPSwm6JR0nX8-acsgjYgcyCuDC_voM6rAEfhnytYdrw/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
-
-        </div>
-    </div>  
-               
-               <div style="display: none;">
-        <div class="box-modal" id="exampleModal_2">
-            <div class="box-modal_close arcticmodal-close">x</div>
-            <iframe src="widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
-
-        </div>
-    </div>  
-               <div style="display: none;">
-        <div class="box-modal" id="exampleModal_3">
-            <div class="box-modal_close arcticmodal-close">x</div>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHqf2OgC0psxCxJIMmPMmpnm50Lnj8onWw5i5ZoSDlZtl2kwT63bAph6nvBEIfNKgLFcRHFCm4HQa8/pubhtml? widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
-                   
-        </div>
-        <div class="box-modal" id="exampleModal_4">
-            <div class="box-modal_close arcticmodal-close">x</div>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQgR2pzpnGmgO236-deQOEv6R8jAZKsgg9noSDUuEWn3Vxl1iaRyVwTfB6oSE7fyxiESLmaQvYdJM2D/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
-                   
-        </div>
-    </div>  
-               
-               <div style="display: none;">
-        <div class="box-modal" id="exampleModal_5">
-            <div class="box-modal_close arcticmodal-close">x</div>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSm3wLFAuCDcGR3Qro6JIaF159al-a-KqTa4xSEll7VS75eraJJdPpzBEB_HkW8bJ4DNaeQG_T8b97j/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
-
-        </div>
-    </div>  
-               <div style="display: none;">
-        <div class="box-modal" id="exampleModal_6">
-            <div class="box-modal_close arcticmodal-close">x</div>
-            <iframe src="widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
-
-        </div>
-    </div>  
-               <div style="display: none;">
-        <div class="box-modal" id="exampleModal_7">
-            <div class="box-modal_close arcticmodal-close">x</div>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTOn3yTyCYt2krGoWWhiGED9G7FUpaSvPNWxPZnM56X5O6-lOCjLVlrkBUdpoTHEOCqXf5gHPu9ghVU/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
-
-        </div>
-        <div class="box-modal" id="exampleModal_8">
-            <div class="box-modal_close arcticmodal-close">x</div>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfUXEdvBmrm6G2dwcZvpi0sfflKVUr1Yu7FUb7wqwR8jw3wJZ5B678R2yPoFopUYctxOGiMYyMbrhG/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
-
-        </div>
-    </div>  
-                </div>
-            </div>
-        </section>
-        <section class="maps" id="maps">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9 col-sm-12">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.2813445159422!2d35.01871431532876!3d48.45113117924958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe31710ce6099%3A0x583a84bec6ea91b6!2z0L_RgNC-0YHQvy4g0JDQu9C10LrRgdCw0L3QtNGA0LAg0J_QvtC70Y8sIDUwLCDQlNC90LjQv9GA0L4sINCU0L3QtdC_0YDQvtC_0LXRgtGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA0OTAwMA!5e0!3m2!1sru!2sua!4v1536754924385" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-lg-3 col-sm-12 text-center">
-                           <h5>Контакты</h5>
-                        <p>г. Днепр, проспект Александра Поля, 50в, оф.41 </p>
-                        <div class="maps-tel">
-                            <a href="tel:+380675244008">+380675244008</a>
-                            <a href="tel:+380675244008">+380675244008</a>
-                            <a href="mailto:vic007.dp@gmail.com">vic007.dp@gmail.com</a>
-                        </div>
-                        <div class="maps-time">
-                            <h5>Время работы</h5>
-                            <p>с 9:00 до 18:00</p>
+                        <div class="col-lg-3 col-md-3">
+                            <img src="img/kachestvo-predostavlyaemyx-uslug.png" alt="" class="advantages__img">
+                            <p>Качество предоставляемых <br>услуг</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
+            </section>
+            <section class="devase" id="devase">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <aside class="repair" id="repair-tel">
+                                <h3>Ремонт телефонов</h3>
+                                <p>
+                                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Даль путь, текстами взгляд то? Грамматики своих алфавит, моей даль курсивных возвращайся. Однажды, живет лучше несколько но по всей рукописи, буквоград наш заголовок дорогу которой подпоясал осталось вопроса даже повстречался.
+                                </p>
+                            </aside>
+                        </div>
+                        <div class="col-lg-8 m-auto">
+                            <h4>Выберете свою модель телефона чтобы узнать цену ремонта и комплектующих</h4>
+                            <div class="slader">
+                                <a href="#" class="slader-card" id="l1">
+                                    <img src="img/slaider_devase/telefon/iPhone.jpg" alt="Phone" class="img-adaptiv">
+                                    <p>Apple iPhone</p>
+                                </a>
+                                <a href="#" class="slader-card" id="l">
+                                    <img src="img/slaider_devase/telefon/MOTOROLA.jpg" alt="MOTOROLA" class="img-adaptiv">
+                                    <p>Motorola</p>
+                                </a>
+                                <a href="#" class="slader-card" id="l2">
+                                    <img src="img/slaider_devase/telefon/PRESTIGIO.jpg" alt="PRESTIGIO" class="img-adaptiv">
+                                    <p>Prestigio</p>
+                                </a>
+                                <a href="#" class="slader-card" id="l3">
+                                    <img src="img/slaider_devase/telefon/SAMSUNG.jpg" alt="SAMSUNG" class="img-adaptiv">
+                                    <p>Samsung</p>
+                                </a>
+                                <a href="#" class="slader-card" id="l4">
+                                    <img src="img/slaider_devase/telefon/XIAOMI.jpg" alt="XIAOMI" class="img-adaptiv">
+                                    <p>xiaomi</p>
+                                </a>
+                                <a href="#" class="slader-card" id="l5">
+                                    <img src="img/slaider_devase/telefon/HUAWEI.jpg" alt="HUAWEI" class="img-adaptiv">
+                                    <p>huawei</p>
+                                </a>
+                                <a href="#" class="slader-card" id="l6">
+                                    <img src="img/slaider_devase/telefon/SONY.jpg" alt="SONY" class="img-adaptiv">
+                                    <p>sony</p>
+                                </a>
+                                <a href="#" class="slader-card" id="l7">
+                                    <img src="img/" alt="FLY" class="img-adaptiv">
+                                    <p>fly</p>
+                                </a>
+                                <a href="#" class="slader-card" id="l8">
+                                    <img src="img/" alt="htc" class="img-adaptiv">
+                                    <p>htc</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <aside class="repair" id="repair-plansh">
+                                <h3>Ремонт планшетов</h3>
+                                <p>
+                                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Даль путь, текстами взгляд то? Грамматики своих алфавит, моей даль курсивных возвращайся. Однажды, живет лучше несколько но по всей рукописи, буквоград наш заголовок дорогу которой подпоясал осталось вопроса даже повстречался.
+                                </p>
+                            </aside>
+                        </div>
+                        <div class="col-lg-8 m-auto">
+                            <div class="slader">
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/planshet/iPad.jpg" alt="iPad" class="img-adaptiv">
+                                    <p>Apple iPad</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/planshet/BRAVIS.jpg" alt="bravis" class="img-adaptiv">
+                                    <p>bravis</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/planshet/PRESTIGIO.jpg" alt="PRESTIGIO" class="img-adaptiv">
+                                    <p>Prestigio</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/planshet/Samsung.jpg" alt="SAMSUNG" class="img-adaptiv">
+                                    <p>Samsung</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/planshet/ASUS.jpg" alt="asus" class="img-adaptiv">
+                                    <p>asus</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/planshet/LENOVO.jpg" alt="lenovo">
+                                    <p>lenovo</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/" alt="XIAOMI" class="img-adaptiv">
+                                    <p>xiaomi</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/planshet/HUAWEI.jpg" alt="HUAWEI" class="img-adaptiv">
+                                    <p>huawei</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/planshet/ACER.jpg" alt="aser" class="img-adaptiv">
+                                    <p>aser</p>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <aside class="repair" id="repair-noot">
+                                <h3>Ремонт Ноутбуков</h3>
+                                <p>
+                                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Даль путь, текстами взгляд то? Грамматики своих алфавит, моей даль курсивных возвращайся. Однажды, живет лучше несколько но по всей рукописи, буквоград наш заголовок дорогу которой подпоясал осталось вопроса даже повстречался.
+                                </p>
+                            </aside>
+                        </div>
+
+                        <div class="col-lg-8 m-auto">
+                            <div class="slader">
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/APPLE.jpg" alt="Apple" class="img-adaptiv">
+                                    <p>Apple</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/.jpg" alt="SAMSUNG" class="img-adaptiv">
+                                    <p>Samsung</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/ASUS.jpg" alt="asus" class="img-adaptiv">
+                                    <p>asus</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/LENOVO.jpg" alt="lenovo" class="img-adaptiv">
+                                    <p>lenovo</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/XIAOMI.jpg" alt="XIAOMI" class="img-adaptiv">
+                                    <p>xiaomi</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/Dell.jpg" alt="dell">
+                                    <p>dell</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/ACER.jpg" alt="aser" class="img-adaptiv">
+                                    <p>aser</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/FUJITSU.jpg" alt="fujitsu" class="img-adaptiv">
+                                    <p>fujitsu</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/notbook/HP.jpg" alt="hp" class="img-adaptiv">
+                                    <p>hp</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <aside class="repair" id="repair-telev">
+                                <h3>Ремонт Телевизоров</h3>
+                                <p>
+                                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Даль путь, текстами взгляд то? Грамматики своих алфавит, моей даль курсивных возвращайся. Однажды, живет лучше несколько но по всей рукописи, буквоград наш заголовок дорогу которой подпоясал осталось вопроса даже повстречался.
+                                </p>
+                            </aside>
+                        </div>
+                        <div class="col-lg-8 m-auto">
+                            <div class="slader">
+                                <a href="#" class="slader-card" id="l1">
+                                    <img src="img/slaider_devase/telec/HISENSE.jpg" alt="hisense" class="img-adaptiv">
+                                    <p>hisense</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/telec/SAMSUNG.jpg" alt="SAMSUNG" class="img-adaptiv">
+                                    <p>Samsung</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/telec/LIBERTY.jpg" alt="liberty" class="img-adaptiv">
+                                    <p>liberty</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/telec/PHILIPS.jpg" alt="philips" class="img-adaptiv">
+                                    <p>lenovo</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/telec/SATURN.jpg" alt="saturn" class="img-adaptiv">
+                                    <p>saturn</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/telec/TOSHIBA.jpg" alt="toshiba" class="img-adaptiv">
+                                    <p>toshiba</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/telec/BRAVIS.jpg" alt="bravis" class="img-adaptiv">
+                                    <p>bravis</p>
+                                </a>
+                                <a href="#" class="slader-card">
+                                    <img src="img/slaider_devase/telec/SONY.jpg" alt="sony" class="img-adaptiv">
+                                    <p>sony</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div style="display: none;">
+                            <div class="box-modal" id="exampleModal_1">
+                                <div class="box-modal_close arcticmodal-close">x</div>
+                                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTpgOITpsUaV8IFncPH29jH5K1u45hrGKLYHNPSwm6JR0nX8-acsgjYgcyCuDC_voM6rAEfhnytYdrw/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
+
+                            </div>
+                        </div>
+
+                        <div style="display: none;">
+                            <div class="box-modal" id="exampleModal_2">
+                                <div class="box-modal_close arcticmodal-close">x</div>
+                                <iframe src="widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
+
+                            </div>
+                        </div>
+                        <div style="display: none;">
+                            <div class="box-modal" id="exampleModal_3">
+                                <div class="box-modal_close arcticmodal-close">x</div>
+                                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHqf2OgC0psxCxJIMmPMmpnm50Lnj8onWw5i5ZoSDlZtl2kwT63bAph6nvBEIfNKgLFcRHFCm4HQa8/pubhtml? widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
+
+                            </div>
+                            <div class="box-modal" id="exampleModal_4">
+                                <div class="box-modal_close arcticmodal-close">x</div>
+                                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQgR2pzpnGmgO236-deQOEv6R8jAZKsgg9noSDUuEWn3Vxl1iaRyVwTfB6oSE7fyxiESLmaQvYdJM2D/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
+
+                            </div>
+                        </div>
+
+                        <div style="display: none;">
+                            <div class="box-modal" id="exampleModal_5">
+                                <div class="box-modal_close arcticmodal-close">x</div>
+                                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSm3wLFAuCDcGR3Qro6JIaF159al-a-KqTa4xSEll7VS75eraJJdPpzBEB_HkW8bJ4DNaeQG_T8b97j/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
+
+                            </div>
+                        </div>
+                        <div style="display: none;">
+                            <div class="box-modal" id="exampleModal_6">
+                                <div class="box-modal_close arcticmodal-close">x</div>
+                                <iframe src="widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
+
+                            </div>
+                        </div>
+                        <div style="display: none;">
+                            <div class="box-modal" id="exampleModal_7">
+                                <div class="box-modal_close arcticmodal-close">x</div>
+                                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTOn3yTyCYt2krGoWWhiGED9G7FUpaSvPNWxPZnM56X5O6-lOCjLVlrkBUdpoTHEOCqXf5gHPu9ghVU/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
+
+                            </div>
+                            <div class="box-modal" id="exampleModal_8">
+                                <div class="box-modal_close arcticmodal-close">x</div>
+                                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfUXEdvBmrm6G2dwcZvpi0sfflKVUr1Yu7FUb7wqwR8jw3wJZ5B678R2yPoFopUYctxOGiMYyMbrhG/pubhtml?widget=false&amp;headers=false&amp;chrome=false" width="100%" height="500vh"></iframe>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="maps" id="maps">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-sm-12">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.2813445159422!2d35.01871431532876!3d48.45113117924958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe31710ce6099%3A0x583a84bec6ea91b6!2z0L_RgNC-0YHQvy4g0JDQu9C10LrRgdCw0L3QtNGA0LAg0J_QvtC70Y8sIDUwLCDQlNC90LjQv9GA0L4sINCU0L3QtdC_0YDQvtC_0LXRgtGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA0OTAwMA!5e0!3m2!1sru!2sua!4v1536754924385" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-3 col-sm-12 text-center">
+                            <h5>Контакты</h5>
+                            <p>г. Днепр, проспект Александра Поля, 50в, оф.41 </p>
+                            <div class="maps-tel">
+                                <a href="tel:+380675244008">+380675244008</a>
+                                <a href="tel:+380675244008">+380675244008</a>
+                                <a href="mailto:vic007.dp@gmail.com">vic007.dp@gmail.com</a>
+                            </div>
+                            <div class="maps-time">
+                                <h5>Время работы</h5>
+                                <p>с 9:00 до 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
-    <div class="praice">
+    <div id="praice_comp">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    
-                     <h1>Цены на услуги по ремонту компьютерной техники</h1>
-                     <div class="box-modal_close_tab table-close">закрыть</div>
+                    <h1>Цены на услуги по ремонту компьютерной техники</h1>
+                    <div class="box-modal_close_tab table-close">закрыть</div>
+                    <table>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Установка и настройка Windows XP / 7 / 8 / 10 (чистая инсталляция)
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Перенос важной информации до 20Гб, сохранение пользовательских настроек. Установка Windows XP, Windows 7 / 8 / 10 + Драйвера + Microsoft Office и стандартный набор программ для повседневной работы с вашим ПК + настройка интернет + Антивирус в подарок. (гарантия на работу 1 мес)
+                                </td>
+                                <td>
+                                    250
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Установка/настройка Microsoft Office 2003/2007/2010/2013/2016
+                                </td>
+                                <td>
+                                    от 70
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Установка Бизнес-приложений (Клиент банк, 1С, М.Е.Doc и др)
+                                </td>
+                                <td>
+                                    от 70
+                                </td>
+                            </tr>
+                            <tr class="tabl_info ">
+                                <td class="border-none">
+                                    Установка программ (мультимедиа, редакторы, графика, аудио-видео-редакторы и т.д.)
+                                </td>
+                                <td class="border-none">
+                                    от 70
+                                </td>
+                            </tr>
+                            <tr class="sup_cap">
+                                <td colspan="2">Оптимизация работы ПК, профилактика
+                                </td>
+                            </tr>
+                        </tbody>
 
-                        
-    
-    <table>
-        <thead>
-            <tr class="cap">
-                <th class="">
-                    Вид работ
-                </th>
-                <th class="">
-                    Цена, грн.
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="tabl_info">
-                <td>
-                    Установка и настройка Windows XP / 7 / 8 / 10 (чистая инсталляция)
-                </td>
-                <td>
-                    150
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Перенос важной информации до 20Гб, сохранение пользовательских настроек. Установка Windows XP, Windows 7 / 8 / 10 + Драйвера + Microsoft Office и стандартный набор программ для повседневной работы с вашим ПК + настройка интернет + Антивирус в подарок. (гарантия на работу 1 мес)
-                </td>
-                <td>
-                    250
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Установка/настройка Microsoft Office 2003/2007/2010/2013/2016
-                </td>
-                <td>
-                    от 70
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Установка Бизнес-приложений (Клиент банк, 1С, М.Е.Doc и др)
-                </td>
-                <td>
-                    от 70
-                </td>
-            </tr>
-            <tr class="tabl_info ">
-                <td class="border-none">
-                    Установка программ (мультимедиа, редакторы, графика, аудио-видео-редакторы и т.д.)
-                </td>
-                <td class="border-none">
-                    от 70
-                </td>
-            </tr>
-            <tr class="sup_cap">
-            <td colspan="2">Оптимизация работы ПК, профилактика
-                </td>
-            </tr>
-        </tbody>
-        
-        <thead>
-            <tr class="cap">
-                <th class="">
-                    Вид работ
-                </th>
-                <th class="">
-                    Цена, грн.
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="tabl_info">
-                <td>
-                   Диагностика компьютера
-                </td>
-                <td>
-                    100
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Оптимизация работы ПК (чистка реестра, удаление временных файлов, дефрагментация)
-                </td>
-                <td>
-                    150
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Профилактика внутреннего пространства системного блока/ноутбука (чистка от пыли, замена термопасты, смазка вентиляторов)
-                </td>
-                <td>
-                    150/200
-                </td>
-            </tr>
-            <tr class="sup_cap">
-            <td colspan="2">Антивирусная защита и лечение
-                </td>
-            </tr>
-        </tbody>
-        <thead>
-            <tr class="cap">
-                <th class="">
-                    Вид работ
-                </th>
-                <th class="">
-                    Цена, грн.
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-         <tr class="tabl_info">
-                <td>
-                   Установка и настройка антивирусной программы
-                </td>
-                <td>
-                    100
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Проверка компьютера на вирусы и их лечение
-                </td>
-                <td>
-                    90
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Удаление вирусов блокираторов которые просят отправить СМС (без переустановки системы)
-                </td>
-                <td>
-                    150
-                </td>
-            </tr>
-            <tr class="sup_cap">
-            <td colspan="2">Настройка сети Lan, Wi-Fi и интернет
-                </td>
-            </tr>
-        </tbody>
-        <thead>
-            <tr class="cap">
-                <th class="">
-                    Вид работ
-                </th>
-                <th class="">
-                    Цена, грн.
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-         <tr class="tabl_info">
-                <td>
-                   Установка модема/роутера и подключение к сети Интернет (до 3 пк)
-                </td>
-                <td>
-                    150
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Настройка локальной сети + интернет (до 3 пк)
-                </td>
-                <td>
-                    90
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Организация беспроводной сети Wi-Fi (до 3 пк)
-                </td>
-                <td>
-                    110
-                </td>
-            </tr>
-            <tr class="sup_cap">
-            <td colspan="2">Ремонт ноутбуков, Нетбуков, Планшетов
-                </td>
-            </tr>
-        </tbody>
-        <thead>
-            <tr class="cap">
-                <th class="">
-                    Вид работ
-                </th>
-                <th class="">
-                    Цена, грн.
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-         <tr class="tabl_info">
-                <td>
-                  Диагностика (в случае отказа от ремонта или неремонтопригодности  
-                </td>
-                <td>
-                   100
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Замена матрицы ноутбука (без учета ее стоимости) 
-                </td>
-                <td>
-                   200
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    Замена клавиатуры ноутбука/нетбука (без учета ее стоимости)
-                </td>
-                <td>
-                   150 
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Замена жесткого диска ноутбука/нетбука (без учета его стоимости) 
-                </td>
-                <td>
-                   100
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт и чистка системы охлаждения ноутбука/нетбука 
-                </td>
-                <td>
-                   от 200
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                    BIOS, перепрошивка на исправном ноутбуке
-                </td>
-                <td>
-                   от 250 
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   BIOS, восстановление после повреждения на программаторе
-                </td>
-                <td>
-                   от 300
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт материнской платы ноутбука (замена разъема питания с Ценою запчастей) 
-                </td>
-                <td>
-                   от 400
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт материнской платы ноутбука (замена портов и прочих разъемов с Ценою запчастей) 
-                </td>
-                <td>
-                    от 400
-                </td>
-            </tr><tr class="tabl_info">
-                <td>
-                  Ремонт дискретной видеокарты ноутбука (замена видеочипа без стоимости запчастей) 
-                </td>
-                <td>
-                  от 700 
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                  Ремонт материнской платы ноутбука (замена южного моста без стоимости запчастей)  
-                </td>
-                <td>
-                   от 700
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт материнской платы ноутбука (замена северного моста без стоимости запчастей) 
-                </td>
-                <td>
-                   от 700 
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт материнской платы ноутбука (замена видеочипа без стоимости запчастей)
-                </td>
-                <td>
-                   от 750
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт материнской платы ноутбука (ремонт прочих контроллеров с Ценою запчастей) 
-                </td>
-                <td>
-                   от 700
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт мат. платы  (ремонт цепей питания, вторичных источников с Ценою запчастей) 
-                </td>
-                <td>
-                   от 700 
-                </td>
-            </tr><tr class="tabl_info">
-                <td>
-                  Ремонт мат.платы ноутбука (сложно диагностируемые неисправности с Ценою запчастей) 
-                </td>
-                <td>
-                  от 700 
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                  Ремонт материнской платы ноутбука (схема заряда батареи без стоимости запчастей)  
-                </td>
-                <td>
-                   от 600
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт материнской платы ноутбука(после залития без стоимости запчастей) 
-                </td>
-                <td>
-                  от 500  
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт материнской платы (после неудачного ремонта в др. СЦ с Ценою запчастей) 
-                </td>
-                <td>
-                   от 800 
-                </td>
-            </tr><tr class="tabl_info">
-                <td>
-                  Замена материнской платы ноутбука (работа по замене) 
-                </td>
-                <td>
-                   от 200
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Ремонт шлейфа матрицы ноутбука(с Ценою запчастей) 
-                </td>
-                <td>
-                   от 200
-                </td>
-            </tr>
-            <tr class="tabl_info">
-                <td>
-                   Замена корпусных деталей (работа по замене) 
-                </td>
-                <td>
-                   от 150 
-                </td>
-            </tr>
-        </tbody>
-    </table>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Диагностика компьютера
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Оптимизация работы ПК (чистка реестра, удаление временных файлов, дефрагментация)
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Профилактика внутреннего пространства системного блока/ноутбука (чистка от пыли, замена термопасты, смазка вентиляторов)
+                                </td>
+                                <td>
+                                    150/200
+                                </td>
+                            </tr>
+                            <tr class="sup_cap">
+                                <td colspan="2">Антивирусная защита и лечение
+                                </td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Установка и настройка антивирусной программы
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Проверка компьютера на вирусы и их лечение
+                                </td>
+                                <td>
+                                    90
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Удаление вирусов блокираторов которые просят отправить СМС (без переустановки системы)
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="sup_cap">
+                                <td colspan="2">Настройка сети Lan, Wi-Fi и интернет
+                                </td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Установка модема/роутера и подключение к сети Интернет (до 3 пк)
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Настройка локальной сети + интернет (до 3 пк)
+                                </td>
+                                <td>
+                                    90
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Организация беспроводной сети Wi-Fi (до 3 пк)
+                                </td>
+                                <td>
+                                    110
+                                </td>
+                            </tr>
+                            <tr class="sup_cap">
+                                <td colspan="2">Ремонт ноутбуков, Нетбуков, Планшетов
+                                </td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Диагностика (в случае отказа от ремонта или неремонтопригодности
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена матрицы ноутбука (без учета ее стоимости)
+                                </td>
+                                <td>
+                                    200
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена клавиатуры ноутбука/нетбука (без учета ее стоимости)
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена жесткого диска ноутбука/нетбука (без учета его стоимости)
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт и чистка системы охлаждения ноутбука/нетбука
+                                </td>
+                                <td>
+                                    от 200
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    BIOS, перепрошивка на исправном ноутбуке
+                                </td>
+                                <td>
+                                    от 250
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    BIOS, восстановление после повреждения на программаторе
+                                </td>
+                                <td>
+                                    от 300
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы ноутбука (замена разъема питания с Ценою запчастей)
+                                </td>
+                                <td>
+                                    от 400
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы ноутбука (замена портов и прочих разъемов с Ценою запчастей)
+                                </td>
+                                <td>
+                                    от 400
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт дискретной видеокарты ноутбука (замена видеочипа без стоимости запчастей)
+                                </td>
+                                <td>
+                                    от 700
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы ноутбука (замена южного моста без стоимости запчастей)
+                                </td>
+                                <td>
+                                    от 700
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы ноутбука (замена северного моста без стоимости запчастей)
+                                </td>
+                                <td>
+                                    от 700
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы ноутбука (замена видеочипа без стоимости запчастей)
+                                </td>
+                                <td>
+                                    от 750
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы ноутбука (ремонт прочих контроллеров с Ценою запчастей)
+                                </td>
+                                <td>
+                                    от 700
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт мат. платы (ремонт цепей питания, вторичных источников с Ценою запчастей)
+                                </td>
+                                <td>
+                                    от 700
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт мат.платы ноутбука (сложно диагностируемые неисправности с Ценою запчастей)
+                                </td>
+                                <td>
+                                    от 700
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы ноутбука (схема заряда батареи без стоимости запчастей)
+                                </td>
+                                <td>
+                                    от 600
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы ноутбука(после залития без стоимости запчастей)
+                                </td>
+                                <td>
+                                    от 500
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт материнской платы (после неудачного ремонта в др. СЦ с Ценою запчастей)
+                                </td>
+                                <td>
+                                    от 800
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена материнской платы ноутбука (работа по замене)
+                                </td>
+                                <td>
+                                    от 200
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Ремонт шлейфа матрицы ноутбука(с Ценою запчастей)
+                                </td>
+                                <td>
+                                    от 200
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена корпусных деталей (работа по замене)
+                                </td>
+                                <td>
+                                    от 150
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="praice_tel">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Цены на услуги по ремонту мобильных телефонов и планшетов</h1>
+                    <div class="box-modal_close_tab table-close">закрыть</div>
+                    <table>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена дисплея со стеклом и Touch-панелью  
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена комплекта LCD + Touch Screen +зад.крышка (модулем)
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена LCD
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена тачскрина стекла (сепарация)
+                                </td>
+                                <td>
+                                    от 70
+                                </td>
+                            </tr>
+                            <tr class="tabl_info ">
+                                <td class="border-none">
+                                    Замена тачскрина стекла
+                                </td>
+                                <td class="border-none">
+                                    от 70
+                                </td>
+                            </tr>
+                            <tr class="sup_cap">
+                                <td colspan="2">
+                                    Замена корпуса
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена задней крышки 
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Механический ремонт (Рихтовка зад.крышек)
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена / ремонт микрофона
+                                </td>
+                                <td>
+                                    150/200
+                                </td>
+                            </tr>
+                            <tr class="sup_cap">
+                                <td colspan="2">
+                                    Замена батареи (АКБ)
+                                </td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена голосового динамика (Speaker)
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена полифонического динамика (Buzer)
+                                </td>
+                                <td>
+                                    90
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена\ремонт шлейфа кнопки включения/выключения
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="sup_cap">
+                                <td colspan="2">
+                                    Замена\ремонт шлейфа кнопки Home
+                                </td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена кнопки регулировки громкости
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена разъема зарядки
+                                </td>
+                                <td>
+                                    90
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена главной камеры
+                                </td>
+                                <td>
+                                    110
+                                </td>
+                            </tr>
+                            <tr class="sup_cap">
+                                <td colspan="2">Замена фронтальной камеры
+                                </td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr class="cap">
+                                <th class="">
+                                    Вид работ
+                                </th>
+                                <th class="">
+                                    Цена, грн.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена датчика приближения и освещенности
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена/восстановление модуля Wi-Fi, Bluetooth, GPS
+                                </td>
+                                <td>
+                                    200
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Замена элементов цепи питания
+                                </td>
+                                <td>
+                                    150
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    Дополнительная защита от влаги микросхем
+                                </td>
+                                <td>
+                                    100
+                                </td>
+                            </tr>
+                            <tr class="tabl_info">
+                                <td>
+                                    SIM-держатель
+                                </td>
+                                <td>
+                                    от 200
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -919,6 +1150,7 @@
             </div>
         </div>
     </footer>
+<!--    <script src="js/jquery-3.3.1.min.js"></script>-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/liMarquee/jquery-1.8.3.min.js"></script>
     <script src="js/slick/slick.min.js"></script>

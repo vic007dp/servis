@@ -1,14 +1,14 @@
 $(function (){
     // фиксированая шапка
             
-    $(window).scroll( function () {
-        if ($(window).scrollTop() > 0) {
-            $('.header-top').addClass('fixed');
-        } else {
-            $('.header-top').removeClass('fixed');
-        }
-    });
- });
+//    $(window).scroll( function () {
+//        if ($(window).scrollTop() > 0) {
+//            $('.header-top').addClass('fixed');
+//        } else {
+//            $('.header-top').removeClass('fixed');
+//        }
+//    });
+// });
     
     //Бегущая строка
     $(window).load(function(){
@@ -76,14 +76,20 @@ $(function (){
         $('#exampleModal_8').arcticmodal();
     });
     //Появление таблицы
-    $('#tab_2').click(function () {
+    $('.tab_1').click(function () {
+        $('.c1, .header-title').css('display', 'none');
+       ('#praice_tel').toggleClass('#praice_tel').css('display', 'block');
+    });
+    $('.tab_2').click(function () {
          $('.c1, .header-title').css('display', 'none');
-        $('.praice').toggleClass('.praice').css('display', 'block');
+         $('#praice_comp').toggleClass('#praice_comp').css('display', 'block');
     });
     $('.table-close').click(function () {
-         $('.praice').css('display', 'none');
+         $('#praice_tel, #praice_comp').css('display', 'none');
         $('.c1, .header-title').toggleClass('.c1, .header-title').css('display', 'block');
     });
+    
+// гамбургер
     $('.menu-open').on("click", function(event){
         event.stopPropagation();
         $('.menu-collapse').toggleClass('d-none');
@@ -96,11 +102,12 @@ $(function (){
                 $('.menu-collapse').addClass('d-none');
           
         };
-//    //Плавная прокрутка
-//    $(".header-menu__text, .footer_link, .top-menu__item a").click(function (e) {
-//        e.preventDefault();
-//		elementClick = $(this).attr("href");
-//		destination = $(elementClick).offset().top;
-//		$("body,html").animate({scrollTop: destination }, 800);
-//	});
+        });
+    //Плавная прокрутка
+    $(".header-menu__text, .footer_link, .top-menu__item a").click(function (e) {
+        e.preventDefault();
+		elementClick = $(this).attr("href");
+		destination = $(elementClick).offset().top;
+		$("body,html").animate({scrollTop: destination }, 800);
+	});
              });

@@ -225,7 +225,7 @@ button, button:hover, button:focus, button:active {
 
 .cena:hover ul{
     display: block;
-    transition: all 0.3s;
+    transition:  1s;
 }
 .top-menu__list{
     display: none;
@@ -257,7 +257,7 @@ button, button:hover, button:focus, button:active {
 }
 
 /* ----- tablica -----*/
-.praice{
+#praice_comp, #praice_tel{
     display: none;
 }
 .praice_blokc{
@@ -336,6 +336,11 @@ line-height:0
     color: #000;
     margin-top: 5px;
 }
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+     color: #2ebcf6; 
+     outline: none; 
+     background: transparent;
+}
 /* ------ table << cena >> ------*/
 
 table {
@@ -343,6 +348,7 @@ table {
     border-collapse: collapse;
     font-size: 14px;
     font-family: 'candarabold';
+    width: 100%;
     
 }
 
