@@ -78,13 +78,15 @@ $(function (){
     //Появление таблицы
     $('.tab_1').click(function () {
         $('.c1, .header-title').css('display', 'none');
-       ('#praice_tel').toggleClass('#praice_tel').css('display', 'block');
+       $('#praice_tel').toggleClass('#praice_tel').css('display', 'block');
+       $('#praice_comp').css('display', 'none');
     });
     $('.tab_2').click(function () {
          $('.c1, .header-title').css('display', 'none');
          $('#praice_comp').toggleClass('#praice_comp').css('display', 'block');
+         $('#praice_tel').css('display', 'none');
     });
-    $('.table-close').click(function () {
+    $('.table-close, #blog, #contacts, #search').click(function () {
          $('#praice_tel, #praice_comp').css('display', 'none');
         $('.c1, .header-title').toggleClass('.c1, .header-title').css('display', 'block');
     });
