@@ -257,11 +257,13 @@ button, button:hover, button:focus, button:active {
 }
 
 /* ----- tablica -----*/
-#praice_comp, #praice_tel{
+#praice_comp, #praice_tel, #praice_plashet{
     display: none;
+    margin-top: 5%;
 }
 .praice_blokc{
     display: block;
+    
 }
 /* ------ MAIN ------ */
 
@@ -367,7 +369,7 @@ th{
 tr th:last-child  {
     border-top-right-radius: 5px;
     width: 100px;
-    padding: 0 10px;
+/*    padding: 0 10px;*/
 }
 tr th:first-child {
     border-top-left-radius: 5px;
@@ -427,12 +429,18 @@ footer a {
 }
 .box-modal_close_tab{
     position:fixed; 
-    right: 3%; 
-    top: 20%; 
+    right: 0; 
+    /*top: 10.3%; */
+    margin: 0px 15px 15px 15px;
     font-size: 14px; 
     line-height: 15px; 
-    color: #999;
+    background: linear-gradient(rgba(2,43,126,1) 0%, rgba(42,138,216,1) 0%, rgba(34,183,232,1) 100%, rgba(126,186,232,1) 100%, rgba(0,0,0,1) 100%);
+    color: #fff;
     cursor: pointer;
+    border:2px solid #007bff;
+    border-radius:  5px;
+    padding:    5px;
+    font-weight: 800;
 }
 
 .box-modal_close:hover { color: #666; }
@@ -494,6 +502,9 @@ footer a {
     }
     .box-modal{
         width: 320px;
+    }
+    #praice_comp, #praice_tel, #praice_plashet{
+        margin-top: 30%
     }
 }
 
