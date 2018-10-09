@@ -264,6 +264,7 @@ button, button:hover, button:focus, button:active {
 #praice_comp, #praice_tel, #praice_plashet{
     display: none;
     margin-top: 5%;
+   
 }
 .praice_blokc{
     display: block;
@@ -410,6 +411,10 @@ footer{
 }
 footer a {
     color: #fff;
+    display: block;
+}
+.link-social{
+    display: flex;
 }
 .box-modal {
     position: relative;
@@ -490,6 +495,18 @@ footer a {
     }
     .logo {
 	padding-top: 0px;
+    }
+    #praice_comp, #praice_tel, #praice_plashet{
+        margin-top: 10%
+    }
+     #praice_comp h1, #praice_tel h1, #praice_plashet h1{
+        font-size: 20px;
+    }
+    .box-modal_close_tab {
+    right: 9%;
+     top: 20%; 
+    
+    
 }
 }
 
@@ -517,10 +534,28 @@ footer a {
         width: 320px;
     }
     #praice_comp, #praice_tel, #praice_plashet{
-        margin-top: 30%
+        margin-top: 100px
     }
+     #praice_comp h1, #praice_tel h1, #praice_plashet h1{
+        font-size: 18px;
+    }
+    .box-modal_close_tab {
+    right: 0;
+     top: 25%; 
+    
+    
+}
     .logo {
 	padding-top: 23px;
+    }
+    .footer {
+	padding-top: 5px
 }
+    .footer .logo {
+	padding-top: 0px;
+    }
+	
+}
+   
 }
 
