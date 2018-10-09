@@ -91,7 +91,11 @@ button, button:hover, button:focus, button:active {
    
 }
 .logo{
-   
+/*
+    width: 210px;
+    height: 64px;
+    background: url(../img/logo%201.png)  no-repeat center center ;    
+*/
 }
 .header-top_cont{
     display: flex;
@@ -447,16 +451,22 @@ footer a {
 /* ------ Media Queries ------ */
 /* 992-1200px */
 @media screen and (max-width: 1200px){
-    
+    .logo {
+	padding-top: 6px;
+}
     }
 /* 768 - 992 px */
 @media screen and (max-width: 992px) {
     .top-menu__item a{
         margin-right: 3px;
+        font-size: 14px;
     }
     .header-menu__text span{
     margin-left: 0px;
     }
+    .logo {
+	padding-top: 15px;
+}
 }
 
 /* 576 - 768 px */
@@ -478,6 +488,9 @@ footer a {
     .box-modal{
         width: 576px;
     }
+    .logo {
+	padding-top: 0px;
+}
 }
 
 /* 320 - 576 px */
@@ -506,5 +519,8 @@ footer a {
     #praice_comp, #praice_tel, #praice_plashet{
         margin-top: 30%
     }
+    .logo {
+	padding-top: 23px;
+}
 }
 
