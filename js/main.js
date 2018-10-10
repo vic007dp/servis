@@ -75,6 +75,13 @@ $(function (){
         e.preventDefault();
         $('#exampleModal_8').arcticmodal();
     });
+    
+    // блог
+    
+    $('#link_blog').click(function (e) {
+        e.preventDefault();
+        $('#blog_Modal').arcticmodal();
+    });
     //Появление таблицы
     $('.tab_1').click(function () {
         $('.c1, .header-title').css('display', 'none');
@@ -91,7 +98,7 @@ $(function (){
          $('#praice_plashet').toggleClass('#praice_plashet').css('display', 'block');
         $('#praice_tel, #praice_comp').css('display', 'none');
     });
-    $('.table-close, #blog, #contacts, #home').click(function () {
+    $('.table-close, #contacts, #home').click(function () {
          $('#praice_tel, #praice_comp, #praice_plashet, #box-modal').css('display', 'none');
         $('.c1, .header-title').toggleClass('.c1, .header-title').css('display', 'block');
     });

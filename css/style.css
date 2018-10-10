@@ -406,19 +406,25 @@ tbody{
 
 footer{
     background-color: #22b7e8;
-    padding-top: 45px;
+    padding-top: 5px;
     color: #fff;
 }
 footer a {
     color: #fff;
     display: block;
 }
+footer a:hover{
+    opacity: .8;
+    color: #fff;
+    }
+
 .link-social{
-    display: flex;
+    margin-right: 5px;
 }
+
 .box-modal {
     position: relative;
-    width: 900px;
+    width: ;
     height: ;
     padding: 16px;
     background: #fff;
@@ -453,6 +459,31 @@ footer a {
 }
 
 .box-modal_close:hover { color: #666; }
+
+/* ------ section "blog" ------*/
+.blog {
+	 display: none;
+}
+#blog_modal{
+    background: #efefef; 
+}
+.blog_cart {
+    display: block;
+	border: 2px solid #2ebcf6;
+    text-align: center;
+    padding-top: 10px;
+}
+.blog_img {
+	background: url(../img/img_blog.jpg) no-repeat center center;
+    border-radius: 50%;
+    width: 215px;
+    height: 215px;
+    margin: 0 auto 27px;
+}
+.blog_close{
+    font-size: 22px;
+}
+
 /* ------ Media Queries ------ */
 /* 992-1200px */
 @media screen and (max-width: 1200px){
@@ -471,7 +502,13 @@ footer a {
     }
     .logo {
 	padding-top: 15px;
-}
+    }
+    footer .logo{
+        padding-top: 5px;
+    }
+    .mail_link{
+        margin-left: 4px
+    }
 }
 
 /* 576 - 768 px */
@@ -494,8 +531,10 @@ footer a {
         width: 576px;
     }
     .logo {
-	padding-top: 0px;
+	padding-top: 3px;
     }
+    
+
     #praice_comp, #praice_tel, #praice_plashet{
         margin-top: 10%
     }
@@ -505,9 +544,12 @@ footer a {
     .box-modal_close_tab {
     right: 9%;
      top: 20%; 
-    
-    
-}
+    }
+    .header-top_cont{
+        justify-content: center;
+        padding-top: 5%;
+        }
+/*    justify-content: center;*/
 }
 
 /* 320 - 576 px */
@@ -546,7 +588,7 @@ footer a {
     
 }
     .logo {
-	padding-top: 23px;
+	padding-top: 4vh;
     }
     .footer {
 	padding-top: 5px
