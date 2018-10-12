@@ -86,25 +86,69 @@ $(function (){
     $('.tab_1').click(function () {
         $('.c1, .header-title').css('display', 'none');
        $('#praice_tel').toggleClass('#praice_tel').css('display', 'block');
-       $('#praice_comp, #praice_plashet').css('display', 'none');
+       $('#praice_comp, #praice_plashet, #blog').css('display', 'none');
     });
     $('.tab_2').click(function () {
          $('.c1, .header-title').css('display', 'none');
          $('#praice_comp').toggleClass('#praice_comp').css('display', 'block');
-         $('#praice_tel, #praice_plashet').css('display', 'none');
+         $('#praice_tel, #praice_plashet, #blog').css('display', 'none');
     });
     $('.tab_3').click(function () {
          $('.c1, .header-title').css('display', 'none');
-         $('#praice_plashet').toggleClass('#praice_plashet').css('display', 'block');
-        $('#praice_tel, #praice_comp').css('display', 'none');
+         ('#praice_plashet').toggleClass('#praice_plashet').css('display', 'block');
+        $('#praice_tel, #praice_comp, #blog').css('display', 'none');
     });
     $('.table-close, #contacts, #home').click(function () {
-         $('#praice_tel, #praice_comp, #praice_plashet, #box-modal').css('display', 'none');
+         $('#praice_tel, #praice_comp, #praice_plashet, #box-modal, #blog').css('display', 'none');
         $('.c1, .header-title').toggleClass('.c1, .header-title').css('display', 'block');
     });
     $('.tab_4').click(function (e) {
         e.preventDefault();
         $('#televizorModal').arcticmodal();
+    });
+    
+// блог
+    
+    $('.link_blog').click(function () {
+         $('.c1, .header-title').css('display', 'none');
+         $('#blog').toggleClass('#blog').css('display', 'block');
+         $('#praice_tel, #praice_comp, #praice_tel, #box-modal').css('display', 'none');
+    });
+    $('.blog_text-1').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-1').arcticmodal();
+    });
+    $('.blog_text-2').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-2').arcticmodal();
+    });
+    $('.blog_text-3').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-3').arcticmodal();
+    });
+    $('.blog_text-4').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-4').arcticmodal();
+    });
+    $('.blog_text-5').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-5').arcticmodal();
+    });
+    $('.blog_text-6').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-6').arcticmodal();
+    });
+    $('.blog_text-7').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-7').arcticmodal();
+    });
+    $('.blog_text-8').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-8').arcticmodal();
+    });
+    $('.blog_text-9').click(function (e) {
+        e.preventDefault();
+        $('#blog_modal-9').arcticmodal();
     });
     
 // гамбургер
