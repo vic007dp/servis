@@ -95,7 +95,7 @@ $(function (){
     });
     $('.tab_3').click(function () {
          $('.c1, .header-title').css('display', 'none');
-         ('#praice_plashet').toggleClass('#praice_plashet').css('display', 'block');
+         $('#praice_plashet').toggleClass('#praice_plashet').css('display', 'block');
         $('#praice_tel, #praice_comp, #blog').css('display', 'none');
     });
     $('.table-close, #contacts, #home').click(function () {
