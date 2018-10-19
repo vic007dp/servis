@@ -506,6 +506,12 @@ footer a:hover{
 .img_6{
     background: url(../img/img_blog/6.png) no-repeat center center;
 }
+.img_7{
+    background: url(../img/img_blog/7.png) no-repeat center center;
+}
+.img_8{
+    background: url(../img/img_blog/8.png) no-repeat center center;
+}
 .modal-blog{
     font-size: 16px;
 }
@@ -658,5 +664,8 @@ footer a:hover{
     .header-title span{
         font-size: 36px;
     } 
+    .marg-top{
+        margin-top: -25px;
+    }
 }
 
