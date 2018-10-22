@@ -102,16 +102,23 @@ button, button:hover, button:focus, button:active {
 .header-top_cont{
     display: flex;
     align-items: center;
+    border-left: 3px solid #fff;
+    font-size: 15px;
+    border-right:  3px solid #fff;
+    font-family: "Calibri", sans-serif;
 }
 .tel{
-    border-left: 3px solid #fff;
+/*    border-left: 3px solid #fff;*/
      border-right: 3px solid #fff;
+    padding-right: 5px;
+/*
     text-align: center;
     padding: 0 5px;
+*/
     font-weight: bold;
 }
 .tel a{
-    font-size: 12px;
+/*    font-size: 12px;*/
     color: #fff; 
     display: block;
 }
@@ -119,18 +126,21 @@ button, button:hover, button:focus, button:active {
     color: #fff;
 }
 .time{
-    border-right:  3px solid #fff;
+/*    border-right:  3px solid #fff;*/
     text-align: center;
+/*
     margin: 5px 0;
    padding: 0 5px;
     height: 54px;
+*/
     font-weight: bold;
+/*
     padding-top: 10px;
-    
+ */
 }
 .time p{
     margin-bottom: 0;
-    font-size: 12px;
+/*    font-size: 12px;*/
     color: #fff; 
 }
 .top-menu{
@@ -302,7 +312,7 @@ line-height:0
     font-weight: bold;
     font-size: 14px;
 }
-/* ------ SECTION "advantages" ------ */
+/* ------ SECTION "devase" ------ */
 
 .devase {
 	
@@ -318,7 +328,7 @@ line-height:0
 	font-size: 14px;
 }
 
-/* ------ SECTION "advantages" ------ */
+/* ------ SECTION "devase"-"slader" ------ */
 
 .slader {
 	margin-bottom: 10px;
@@ -351,6 +361,16 @@ line-height:0
      outline: none; 
      background: transparent;
 }
+
+/* ------ SECTION "maps" ------ */
+.maps{
+    font-family: "Calibri", sans-serif;
+}
+ .maps-tel a {
+    color: #000;
+    font-family: "Calibri", sans-serif;
+}
+
 /* ------ table << cena >> ------*/
 
 table {
@@ -425,7 +445,12 @@ footer a:hover{
 .link-social{
     margin-right: 5px;
 }
-
+.footer_web  {
+	margin-bottom: 0; 
+}
+.footer-info {
+	border-top: 4px solid #fff;
+}
 .box-modal {
     position: relative;
     width: ;
