@@ -433,6 +433,10 @@ footer{
     padding-top: 5px;
     color: #fff;
 }
+.slogan span{
+    font-size: 18px;
+    font-weight: bold;
+}
 footer a {
     color: #fff;
     display: block;
