@@ -106,6 +106,10 @@ $(function (){
         e.preventDefault();
         $('#televizorModal').arcticmodal();
     });
+    $('#l13, #l2, #l6, #l9, #l10, #l11, #l12' ).click(function (e) {
+        e.preventDefault();
+        $('#remtelModal').arcticmodal();
+    });
     
 // блог
     

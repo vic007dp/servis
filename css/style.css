@@ -125,6 +125,13 @@ button, button:hover, button:focus, button:active {
 .tel a:hover{
     color: #fff;
 }
+
+.vodafon img{
+	margin-right: 3px;
+    }
+.life{
+    margin-left: 18px;
+}
 .time{
 /*    border-right:  3px solid #fff;*/
     text-align: center;
@@ -276,7 +283,10 @@ button, button:hover, button:focus, button:active {
 /* ----- tablica -----*/
 #praice_comp, #praice_tel, #praice_plashet{
     display: none;
-    margin-top: 5%;
+/*    margin-top: 5%;*/
+    position: relative;
+    top: 100px;
+    margin-bottom: 105px
    
 }
 .praice_blokc{
@@ -397,7 +407,7 @@ th{
 tr th:last-child  {
     border-top-right-radius: 5px;
     width: 100px;
-/*    padding: 0 10px;*/
+ padding: 0 10px;
 }
 tr th:first-child {
     border-top-left-radius: 5px;
@@ -478,10 +488,10 @@ footer a:hover{
 .box-modal_close_tab{
     position:fixed; 
     right: 0; 
-    /*top: 10.3%; */
-    margin: 0px 15px 15px 15px;
+    top: 90px; 
+/*    margin: 0px 15px 15px 15px;*/
     font-size: 14px; 
-    line-height: 15px; 
+/*    line-height: 15px; */
     background: linear-gradient(rgba(2,43,126,1) 0%, rgba(42,138,216,1) 0%, rgba(34,183,232,1) 100%, rgba(126,186,232,1) 100%, rgba(0,0,0,1) 100%);
     color: #fff;
     cursor: pointer;
@@ -568,6 +578,12 @@ footer a:hover{
     .repair {
     padding-top: 15px;
 }
+    .box-modal_close_tab {
+/*        top: 23%;*/
+        }
+    .title-tabl{
+        
+    }
     }
 /* 768 - 992 px */
 @media screen and (max-width: 992px) {
@@ -589,6 +605,12 @@ footer a:hover{
     }
     .header-title_text {
         transform: translateY(20px);
+    }
+    .box-modal_close_tab {
+/*        top: 27%;*/
+        }
+    .title-tabl{
+        
     }
 }
 
@@ -615,22 +637,27 @@ footer a:hover{
 	padding-top: 3px;
     }
     #praice_comp, #praice_tel, #praice_plashet{
-        margin-top: 10%
+/*        margin-top: 10%*/
     }
      #praice_comp h1, #praice_tel h1, #praice_plashet h1{
         font-size: 20px;
     }
+
     .box-modal_close_tab {
-    float: right;
-    top: 20%;
-    position: relative;
-    }
+/*        top: 23%;*/
+        padding: 2px;
+        font-size: 10px;
+        }
+
     .header-top_cont{
         justify-content: center;
         padding-top: 5%;
         }
     .header-title {
         margin-top: 6%;
+    }
+    .title-tabl{
+        
     }
 }
 
@@ -658,22 +685,14 @@ footer a:hover{
         width: 320px;
     }
     #praice_comp, #praice_tel, #praice_plashet{
-        margin-top: 100px
+/*        margin-top: 100px*/
     }
      #praice_comp h1, #praice_tel h1, #praice_plashet h1{
         font-size: 18px;
     }
     .box-modal_close_tab {
-    right: 0;
-     top: 25%; 
-    
-    
+/*     top: 28%; */
 }
-/*
-    .logo {
-	padding-top: 4vh;
-    }
-*/
     .footer {
 	padding-top: 5px
 }
@@ -695,6 +714,9 @@ footer a:hover{
     } 
     .marg-top{
         margin-top: -25px;
+    }
+    .title-tabl{
+        font-size: 24px;
     }
 }
 
