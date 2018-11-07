@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+
+<body>
+    <a href="#" id="zakaz">заказ</a>
+    <div style="display: none">
+        <div class="box-modal modal-form" id="formModal">
+            <div class="box-modal_close arcticmodal-close">x</div>
+            <h2>Узнайте стоимость ремонта для Вашего устройства</h2>
+            <p>Заполните форму и мы перезвоним Вам в ближайшее время!</p>
+            <form action="success.php" class="js-form" id="popupResult">
+                <div class="form-group">
+                    <label for="tel"></label>
+                    <input type="text" name="name" placeholder="Введите имя" class="">
+                </div>
+                <div class="form-group">
+                    <label for="tel"></label>
+                    <input type="text" name="email" placeholder="Введите E-mail" class="">
+                </div>
+                <div class="form-group">
+                    <label for="tel"></label>
+                    <input type="text" name="tel" placeholder="Введите телефон" class="">
+                </div>
+                <div class="form-group">
+                    <label for="tel"></label>
+                    <textarea placeholder="Кратко о проблеме" name="cmc" rows="4" class=""></textarea>
+                </div>
+
+                <button class="btn-form" data-submit>Отправить</button>
+
+            </form>
+            <!-- Индикация процесса отправки формы -->
+            <div id="loader">
+                <img src="img/ripple.svg">
+            </div>
+
+            <!-- Сообщение "спасибо" после отправки формы -->
+            <div id="overlay">
+                <div id="thx">
+                    Спасибо! Мы обязательно вам перезвоним
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+
+        <!-- Валидатор для проверки формы на заполненность  -->
+        <script type="text/javascript" src="js/jquery.validate.js"></script>
+
+        <script src="js/form.js"></script>
+</body>
+
+</html>
