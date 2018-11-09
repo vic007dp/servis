@@ -601,7 +601,7 @@ footer a:hover {
     display: none;
 }
 .modal-form {
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -638,16 +638,20 @@ footer a:hover {
     margin-bottom: 10px;
 }
 input{
+       width: 60%;
     border: 2px solid #22b7e8;
     font-size: 14px;
     color: #000202;
     font-style: italic;
+    padding: 5px;
 }
 .modal-form textarea{
     border: 2px solid #22b7e8;
     font-size: 14px;
     color: #000202;
     font-style: italic;
+     width: 60%;
+    padding: 5px;
 }
 .btn-form{
     border: none;

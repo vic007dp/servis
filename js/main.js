@@ -171,14 +171,14 @@ $(function () {
         };
     });
     //Плавная прокрутка
-    $(".header-menu__text, .footer_link, #contacts").click(function (e) {
-        e.preventDefault();
-        elementClick = $(this).attr("href");
-        destination = $(elementClick).offset().top;
-        $("body,html").animate({
-            scrollTop: destination
-        }, 800);
-    });
+//    $(".header-menu__text, .footer_link, #contacts").click(function (e) {
+//        e.preventDefault();
+//        elementClick = $(this).attr("href");
+//        destination = $(elementClick).offset().top;
+//        $("body,html").animate({
+//            scrollTop: destination
+//        }, 800);
+//    });
     
     //форма
     $('#zakaz').click(function (e) {
