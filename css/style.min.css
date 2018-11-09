@@ -625,13 +625,13 @@ footer a:hover {
     font-size: 14px;
     font-style: italic;
 }
-.box-modal_close {
+.forms-close {
     position: absolute;
     right: 10px;
     top: 6px;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 15px;
-    color: #999;
+    color: #22b7e8;
     cursor: pointer;
 }
 .form-group{
@@ -718,6 +718,23 @@ padding: 30px;
 margin-top: -20px;
 }
 
+/* ----- articles -----*/
+
+.laptop{
+    background: #efeaea;
+    margin-top: 68px;
+    padding: 10px 0;
+}
+.laptop p{
+    font-size: 16px;
+}
+.laptop ul li{
+    list-style-type: disc;
+    margin-left: 80px;
+}
+.laptop ul{
+    margin-bottom: 16px;
+}
 
 @media screen and (max-width:1200px) {
     .repair {

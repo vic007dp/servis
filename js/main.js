@@ -78,23 +78,23 @@ $(function () {
 
    //Появление таблицы
     
-    $('.tab_1').click(function () {
+    $('.tab_1, .blog-tab_1').click(function () {
         $('.c1, .header-title').css('display', 'none');
         $('#praice_tel').toggleClass('#praice_tel').css('display', 'block');
-        $('#praice_comp, #praice_plashet, #blog').css('display', 'none');
+        $('#praice_comp, #praice_plashet').css('display', 'none');
     });
     $('.tab_2').click(function () {
         $('.c1, .header-title').css('display', 'none');
-        $('#praice_comp').toggleClass('#praice_comp').css('display', 'block');
-        $('#praice_tel, #praice_plashet, #blog').css('display', 'none');
+       $('#praice_comp').toggleClass('#praice_comp').css('display', 'block');
+        $('#praice_tel, #praice_plashet').css('display', 'none');
     });
     $('.tab_3').click(function () {
         $('.c1, .header-title').css('display', 'none');
         $('#praice_plashet').toggleClass('#praice_plashet').css('display', 'block');
-        $('#praice_tel, #praice_comp, #blog').css('display', 'none');
+        $('#praice_tel, #praice_comp').css('display', 'none');
     });
     $('.table-close, #contacts, #home').click(function () {
-        $('#praice_tel, #praice_comp, #praice_plashet, #box-modal, #blog').css('display', 'none');
+        $('#praice_tel, #praice_comp, #praice_plashet, #box-modal').css('display', 'none');
         $('.c1, .header-title').toggleClass('.c1, .header-title').css('display', 'block');
     });
     $('.tab_4').click(function (e) {
@@ -119,10 +119,10 @@ $(function () {
 //        $('#blog').toggleClass('#blog').css('display', 'block');
 //        $('#praice_tel, #praice_comp, #praice_tel, #box-modal').css('display', 'none');
 //    });
-    $('.blog_text-1').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-1').arcticmodal();
-    });
+//    $('.blog_text-1').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-1').arcticmodal();
+//    });
     $('.blog_text-2').click(function (e) {
         e.preventDefault();
         $('#blog_modal-2').arcticmodal();
