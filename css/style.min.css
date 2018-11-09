@@ -246,7 +246,7 @@ input:hover {
 .header-title {
     background: url(../img/bg_header.jpg) no-repeat top;
     background-size: cover;
-    padding-bottom: 500px;
+    padding-bottom: 100px;
     margin-top: 6%
 }
 
@@ -255,6 +255,17 @@ input:hover {
     color: #fff;
     text-shadow: -4px 4px 0 rgba(48, 48, 48, .5), -2px 2px 0 rgba(64, 64, 64, .5);
     letter-spacing: 3px
+}
+.discounts img{
+    
+}
+.discounts h2{
+    color: red;
+}
+.discounts span{
+    font-size: 28px;
+    text-shadow: none;
+    color: red;
 }
 
 .cena:hover ul {

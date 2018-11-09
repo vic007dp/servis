@@ -181,7 +181,7 @@ $(function () {
 //    });
     
     //форма
-    $('#zakaz').click(function (e) {
+    $('.zakaz').click(function (e) {
         e.preventDefault();
         $('#formModal').arcticmodal();
     });
