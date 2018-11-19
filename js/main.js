@@ -123,38 +123,38 @@ $(function () {
 //        e.preventDefault();
 //        $('#blog_modal-1').arcticmodal();
 //    });
-    $('.blog_text-2').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-2').arcticmodal();
-    });
-    $('.blog_text-3').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-3').arcticmodal();
-    });
-    $('.blog_text-4').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-4').arcticmodal();
-    });
-    $('.blog_text-5').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-5').arcticmodal();
-    });
-    $('.blog_text-6').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-6').arcticmodal();
-    });
-    $('.blog_text-7').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-7').arcticmodal();
-    });
-    $('.blog_text-8').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-8').arcticmodal();
-    });
-    $('.blog_text-9').click(function (e) {
-        e.preventDefault();
-        $('#blog_modal-9').arcticmodal();
-    });
+//    $('.blog_text-2').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-2').arcticmodal();
+//    });
+//    $('.blog_text-3').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-3').arcticmodal();
+//    });
+//    $('.blog_text-4').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-4').arcticmodal();
+//    });
+//    $('.blog_text-5').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-5').arcticmodal();
+//    });
+//    $('.blog_text-6').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-6').arcticmodal();
+//    });
+//    $('.blog_text-7').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-7').arcticmodal();
+//    });
+//    $('.blog_text-8').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-8').arcticmodal();
+//    });
+//    $('.blog_text-9').click(function (e) {
+//        e.preventDefault();
+//        $('#blog_modal-9').arcticmodal();
+//    });
 
     // гамбургер
     $('.menu-open').on("click", function (event) {
@@ -185,7 +185,10 @@ $(function () {
         e.preventDefault();
         $('#formModal').arcticmodal();
     });
-    $(document).ready(function() {
+    
+});
+
+$(document).ready(function() {
     $('[data-submit]').on('click', function(e) {
         e.preventDefault();
         $(this).parent('form').submit();
@@ -235,20 +238,20 @@ $(function () {
                 var $formId = $(form).attr('id');
                 switch ($formId) {
                     // Если у формы id="goToNewPage" - делаем:
-                    case 'goToNewPage':
-                        $.ajax({
-                                type: 'POST',
-                                url: $form.attr('action'),
-                                data: $form.serialize(),
-                            })
-                            .always(function(response) {
-                                //ссылка на страницу "спасибо" - редирект
-                                location.href = 'https://wayup.in/lm/landing-page-marathon/success';
-                                //отправка целей в Я.Метрику и Google Analytics
-                                ga('send', 'event', 'masterklass7', 'register');
-                                yaCounter27714603.reachGoal('lm17lead');
-                            });
-                        break;
+//                    case 'goToNewPage':
+//                        $.ajax({
+//                                type: 'POST',
+//                                url: $form.attr('action'),
+//                                data: $form.serialize(),
+//                            })
+//                            .always(function(response) {
+//                                //ссылка на страницу "спасибо" - редирект
+//                                location.href = 'https://wayup.in/lm/landing-page-marathon/success';
+//                                //отправка целей в Я.Метрику и Google Analytics
+//                                ga('send', 'event', 'masterklass7', 'register');
+//                                yaCounter27714603.reachGoal('lm17lead');
+//                            });
+//                        break;
                     // Если у формы id="popupResult" - делаем:
                     case 'popupResult':
                         $.ajax({
@@ -282,5 +285,4 @@ $(function () {
         valEl($(this));
     });
     
-});
 });
